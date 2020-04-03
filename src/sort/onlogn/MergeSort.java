@@ -34,7 +34,7 @@ public class MergeSort {
     }
   }
 
-  private static void merge(Comparable[] array, int l, int mid, int r) {
+  public static void merge(Comparable[] array, int l, int mid, int r) {
     Comparable[] temp = new Comparable[r - l + 1];
     for (int i = l; i <= r; i++) {
       temp[i - l] = array[i];
