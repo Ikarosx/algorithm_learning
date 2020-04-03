@@ -1,9 +1,11 @@
 package test;
 
 import org.junit.jupiter.api.Test;
-import sort.on2.InsertionSort;
-import sort.on2.ShellSort;
 import sort.helper.SortTestHelper;
+import sort.on2.InsertionSort;
+import sort.onlogn.MergeSort;
+
+import java.util.Arrays;
 
 /**
  * @author Ikaros
@@ -12,10 +14,10 @@ import sort.helper.SortTestHelper;
 public class SortTest {
   @Test
   public void generateTest() {
-    int n = 100;
+    int n = 50000;
     Integer[] ints1 = SortTestHelper.generateRandomArray(n, 0, n);
     Integer[] ints2 = SortTestHelper.copyIntegerArray(ints1);
-    SortTestHelper.testSort(ShellSort.class.getName(), ints1);
+    SortTestHelper.testSort(MergeSort.class.getName(), ints1);
     SortTestHelper.testSort(InsertionSort.class.getName(), ints2);
   }
 }
