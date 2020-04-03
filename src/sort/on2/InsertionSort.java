@@ -7,14 +7,14 @@ package sort.on2;
  * @date 2020/3/22 10:41
  */
 public class InsertionSort {
-  public static void sort(Comparable[] array) {
+  public static void sort(Comparable[] array, Integer l, Integer r) {
 
     // 表示未排序
-    for (int i = 1; i < array.length; i++) {
+    for (int i = l + 1; i <= r; i++) {
       Comparable temp = array[i];
       int j;
       // 遍历前序，且当前数小于前一个数，则将当前数赋值为前一个数
-      for (j = i; j > 0 && temp.compareTo(array[j - 1]) < 0; j--) {
+      for (j = i; j > l && temp.compareTo(array[j - 1]) < 0; j--) {
         array[j] = array[j - 1];
       }
       array[j] = temp;

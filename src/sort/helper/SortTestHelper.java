@@ -108,20 +108,21 @@ public class SortTestHelper {
    * @param sortClassName
    * @param arr
    */
-  public static void testSort(String sortClassName, Comparable[] arr) {
+  public static void testSort(String sortClassName, Comparable[] arr, Integer l, Integer r) {
 
     // 通过Java的反射机制，通过排序的类名，运行排序函数
     try {
       // 通过sortClassName获得排序函数的Class对象
       Class sortClass = Class.forName(sortClassName);
       // 通过排序函数的Class对象获得排序方法
-      Method sortMethod = sortClass.getMethod("sort", new Class[] {Comparable[].class});
+      Method sortMethod =
+          sortClass.getMethod("sort", Comparable[].class, Integer.class, Integer.class);
       // 排序参数只有一个，是可比较数组arr
       Object[] params = new Object[] {arr};
 
       long startTime = System.currentTimeMillis();
       // 调用排序函数
-      sortMethod.invoke(null, params);
+      sortMethod.invoke(null, arr, l, r);
       long endTime = System.currentTimeMillis();
 
       assert isSorted(arr);

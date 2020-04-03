@@ -1,29 +1,37 @@
 package sort.onlogn;
 
+import sort.on2.InsertionSort;
+
 /**
  * @author Ikaros
  * @date 2020/3/22 23:16
  */
 public class MergeSort {
-  public static void sort(Comparable[] array) {
-    mergeSort(array, 0, array.length - 1);
+  public static void sort(Comparable[] array, Integer l, Integer r) {
+    mergeSort(array, l, r);
   }
 
   /**
-   * 递归使用归并排，对array[l, r]的范围进行排序
+   * 递归使用归并排序，对array[l, r]的范围进行排序
    *
    * @param array
    * @param l
    * @param r
    */
   private static void mergeSort(Comparable[] array, int l, int r) {
-    if (l >= r) {
+    // 优化：在数量级比较小的时候采用插入排序
+    if (r - l <= 15) {
+      InsertionSort.sort(array, l, r);
       return;
     }
+
     int mid = (r - l) / 2 + l;
     mergeSort(array, l, mid);
     mergeSort(array, mid + 1, r);
-    merge(array, l, mid, r);
+    // 优化：提前返回
+    if (array[mid].compareTo(array[mid + 1]) > 0) {
+      merge(array, l, mid, r);
+    }
   }
 
   private static void merge(Comparable[] array, int l, int mid, int r) {
