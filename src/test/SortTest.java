@@ -1,8 +1,8 @@
 package test;
 
 import org.junit.jupiter.api.Test;
-import sort.InsertionSort;
-import sort.ShellSort;
+import sort.on2.InsertionSort;
+import sort.on2.ShellSort;
 import sort.helper.SortTestHelper;
 
 /**

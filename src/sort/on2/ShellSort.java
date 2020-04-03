@@ -1,6 +1,4 @@
-package sort;
-
-import sort.helper.SortTestHelper;
+package sort.on2;
 
 /**
  * @author Ikaros
@@ -13,9 +11,9 @@ public class ShellSort {
       for (int i = gap; i < array.length; i++) {
         int j = i;
         Comparable temp = array[j];
-        while (j - gap >= 0 && temp.compareTo( array[j - gap]) < 0) {
-            array[j] = array[j - gap];
-            j -= gap;
+        while (j - gap >= 0 && temp.compareTo(array[j - gap]) < 0) {
+          array[j] = array[j - gap];
+          j -= gap;
         }
         array[j] = temp;
       }
