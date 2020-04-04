@@ -95,8 +95,8 @@ public class QuickSort {
                 swap(array, i, --gt);
             }
         }
-        swap(array, l, lt + 1);
-        partition3(array, l, lt);
+        swap(array, l, lt);
+        partition3(array, l, lt - 1);
         partition3(array, gt, r);
         
     }
