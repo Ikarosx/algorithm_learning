@@ -1,5 +1,7 @@
 package sort.question.数组中第N大元素;
 
+import java.util.Random;
+
 import static sort.helper.SortTestHelper.swap;
 
 /**
@@ -19,6 +21,7 @@ public class NrdBig {
     }
     
     private static int partition(Comparable[] array, Integer l, Integer r) {
+        swap(array, l, Math.abs(new Random().nextInt()) % (r - l + 1) + l);
         Comparable temp = array[l];
         int j = l;
         // [l + 1...j] < temp
