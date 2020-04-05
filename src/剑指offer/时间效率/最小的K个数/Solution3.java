@@ -20,6 +20,7 @@ public class Solution3 {
             return list;
         }
         MinHeap MinHeap = new MinHeap(100);
+        // 可优化，改最大堆再判断堆顶元素
         for (Integer integer : input) {
             MinHeap.insert(integer);
         }

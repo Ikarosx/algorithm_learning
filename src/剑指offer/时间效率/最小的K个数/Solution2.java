@@ -19,6 +19,7 @@ public class Solution2 {
         if (input == null || input.length == 0 || input.length < k) {
             return list;
         }
+        // 可优化，只对一边查找
         quickSort(input, 0, input.length - 1);
         for (int i = 0; i < k; i++) {
             list.add(input[i]);
