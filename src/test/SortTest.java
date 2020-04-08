@@ -13,7 +13,7 @@ import sort.onlogn.QuickSort;
 public class SortTest {
     @Test
     public void generateTest() {
-        int n = 1000000;
+        int n = 1000;
         Integer[] ints1 = SortTestHelper.generateRandomArray(n, 0, n);
         // Integer[] ints1 = SortTestHelper.generateNearlyOrderArray(n, 100);
         Integer[] ints2 = SortTestHelper.copyIntegerArray(ints1);

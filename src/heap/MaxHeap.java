@@ -14,6 +14,7 @@ public class MaxHeap {
         count = 0;
         this.capacity = capacity;
     }
+    
     public MaxHeap(Comparable[] array) {
         data = new Comparable[array.length + 1];
         count = array.length;
@@ -36,8 +37,8 @@ public class MaxHeap {
     
     public void insert(Comparable item) {
         // 扩容 TODO
-        assert ++count <= capacity;
-        data[count] = item;
+        assert count + 1 <= capacity;
+        data[++count] = item;
         shiftUp(count);
     }
     
