@@ -1,4 +1,4 @@
-package wejudge;
+package wejudge.normal;
 
 import org.junit.jupiter.api.Test;
 

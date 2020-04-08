@@ -1,4 +1,4 @@
-package wejudge;
+package wejudge.normal;
 
 import java.util.Scanner;
 
