@@ -7,11 +7,36 @@ package 剑指offer.时间效率.连续子数组的最大和;
  * 但是,如果向量中包含负数,是否应该包含某个负数,并期望旁边的正数会弥补它呢？
  * 例如:{6,-3,-2,7,-15,1,2,2},连续子向量的最大和为8(从第0个开始,到第3个为止)。
  * 给一个数组，返回它的最大连续子序列的和，你会不会被他忽悠住？(子向量的长度至少是1)
+ *
  * @author Ikaros
  * @date 2020/4/6 11:26
  */
 public class Solution {
     public static void main(String[] args) {
+        Solution solution = new Solution();
+        int i = solution.FindGreatestSumOfSubArray(new int[]{6, -3, -2, 7, -15, 1, 2, 2});
+        System.out.println(i);
+    }
     
+    public int FindGreatestSumOfSubArray(int[] array) {
+        int result = Integer.MIN_VALUE;
+        int tempSum = 0;
+        if (array == null || array.length == 0) {
+            return 0;
+        }
+        // 从左往右累加，如果是负数那么一直累加，直到遇到正数
+        // 假如加上该正数后小于等于该正数，则抛弃之前的
+        // 加上该正数后大于该正数，则更新最大值
+        for (int i = 0; i < array.length; i++) {
+            if (tempSum <= 0) {
+                // 负数
+                tempSum = array[i];
+            } else {
+                // 正数
+                tempSum += array[i];
+            }
+            result = tempSum > result ? tempSum : result;
+        }
+        return result;
     }
 }
