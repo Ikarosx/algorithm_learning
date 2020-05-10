@@ -1,4 +1,4 @@
-package 剑指offer.抽象建模能力;
+package 剑指offer.抽象建模能力.扑克牌顺子;
 
 import org.junit.jupiter.api.Test;
 
@@ -25,7 +25,7 @@ import java.util.Arrays;
  * @author Ikaros
  * @date 2020/5/7 10:35
  */
-public class 扑克牌顺子 {
+public class Solution {
     @Test
     public void test() {
         System.out.println(isContinuous(new int[]{1, 3, 6, 0, 0}));

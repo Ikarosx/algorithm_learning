@@ -11,7 +11,7 @@ import 剑指offer.ListNode;
  */
 public class Solution {
     public ListNode FindFirstCommonNode(ListNode pHead1, ListNode pHead2) {
-        if (pHead1 == null || pHead2 == null){
+        if (pHead1 == null || pHead2 == null) {
             return null;
         }
         // set解法
