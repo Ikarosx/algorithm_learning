@@ -1,5 +1,6 @@
-package cn.ikarosx.contest;
+package contest.GDEI2020程序设计比赛;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package collection.GDEI2019程序设计比赛;
+package contest.GDEI2019程序设计比赛;
 
 /**
  * Sudoku对数独非常感兴趣，今天他在书上看到了几道数独题:

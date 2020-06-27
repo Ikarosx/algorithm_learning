@@ -1,4 +1,4 @@
-package collection.normal;
+package contest.normal;
 
 import org.junit.jupiter.api.Test;
 

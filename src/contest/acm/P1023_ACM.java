@@ -1,4 +1,4 @@
-package collection.acm;
+package contest.acm;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

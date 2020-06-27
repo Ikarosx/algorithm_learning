@@ -1,4 +1,4 @@
-package cn.ikarosx.contest;
+package contest.GDEI2020程序设计比赛;
 
 import java.util.Scanner;
 
@@ -8,11 +8,9 @@ public class C {
     // T行数据
     int T = scanner.nextInt();
     for (int i = 0; i < T; i++) {
-      n个随从
       int n = scanner.nextInt();
       int[][] gcSlave = new int[n][2];
       int[][] cgSlave = new int[n][2];
-      GC学长
       int gcMinHealth = Integer.MAX_VALUE;
       int cgMaxAttack = Integer.MIN_VALUE;
       for (int j = 0; j < n; j++) {

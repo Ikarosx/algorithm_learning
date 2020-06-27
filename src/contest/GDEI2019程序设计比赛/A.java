@@ -1,4 +1,4 @@
-package collection.GDEI2019程序设计比赛;
+package contest.GDEI2019程序设计比赛;
 
 import java.util.Scanner;
 

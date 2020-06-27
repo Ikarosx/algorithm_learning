@@ -1,4 +1,4 @@
-package cn.ikarosx.contest;
+package contest.GDEI2020程序设计比赛;
 
 import java.util.HashMap;
 import java.util.Map;

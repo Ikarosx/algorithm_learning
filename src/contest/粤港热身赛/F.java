@@ -1,4 +1,4 @@
-package collection.粤港热身赛;
+package contest.粤港热身赛;
 
 import java.util.*;
 

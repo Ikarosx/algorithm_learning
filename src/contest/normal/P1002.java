@@ -1,4 +1,4 @@
-package collection.normal;
+package contest.normal;
 
 import java.util.Scanner;
 import java.util.Stack;

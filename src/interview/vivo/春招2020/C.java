@@ -1,4 +1,4 @@
-package interview.vivo.vivo2020春招;
+package interview.vivo.春招2020;
 
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package collection.粤港澳资格赛;
+package contest.粤港澳资格赛;
 
 /**
  * @author Ikaros

@@ -1,4 +1,4 @@
-package collection.acm;
+package contest.acm;
 
 import java.util.Arrays;
 import java.util.Scanner;
