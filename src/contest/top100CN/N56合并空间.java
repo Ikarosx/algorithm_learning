@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * https://leetcode-cn.com/problems/merge-intervals/
  *
- * @author 许培宇
+ * @author Ikaros
  * @date 2020/7/2 22:03
  */
 public class N56合并空间 {
