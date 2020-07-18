@@ -42,7 +42,6 @@ public class N239滑动窗口最大值 {
         }
         int[] output = new int[n - k + 1];
         output[0] = nums[deq.getFirst()];
-        
         // build output
         for (int i = k; i < n; i++) {
             if (deq.getFirst() < i - k + 1) {
