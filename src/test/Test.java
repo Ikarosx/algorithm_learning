@@ -1,26 +1,40 @@
 package test;
 
 
+import java.io.File;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 /**
  * @author Ikaros
  * @date 2020/4/12 20:11
  */
 public class Test {
-    
-    
+
+
     public static void main(String[] args) throws Exception {
-        
-        Integer integer = 501;
-        Integer integer1 = 501;
-        System.out.println(integer == integer1);
-        long s1 = 1;
-        
+
+        File file2 = new File("2.txt");
+        //        if (!file2.exists()) {
+        //            file2.createNewFile();
+        //        }
+        System.out.println(file2.getAbsolutePath());
+        List<Integer> integers = new LinkedList<Integer>() {{
+            add(1);
+            add(1);
+            add(2);
+            add(2);
+        }};
+        integers = integers.stream().distinct().collect(Collectors.toList());
+        System.out.println(integers);
     }
-    
+
     class A {
+
         private String s;
-        
-        
+
+
         @Override
         public boolean equals(Object obj) {
             if (this == obj) {
