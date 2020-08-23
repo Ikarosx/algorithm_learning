@@ -1,9 +1,6 @@
 package test;
 
 import java.io.UnsupportedEncodingException;
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-import org.junit.jupiter.api.Test;
 
 /**
  * @author Ikarosx
@@ -24,48 +21,4 @@ public class Demo {
         }
     }
 
-    @Test
-    public void test() {
-        factorial(100);
-    }
-
-    /**
-     * 计算n的阶乘尾部0的数量
-     */
-    public static long countFactorialTailZero(long n) {
-        return n / 5 + n / 25;
-    }
-
-    /**
-     * 阶乘
-     */
-    public void factorial(int n) {
-        BigDecimal result = BigDecimal.ONE;
-        for (int i = 1; i <= n; i++) {
-            result = result.multiply(new BigDecimal(i));
-            System.out.println(i + "：" + result + "：" + countZero(result));
-        }
-    }
-
-    /**
-     * 计算一个数有多少个0
-     */
-    public int countZero(BigDecimal n) {
-        // 特判
-        // 存储结果
-        int count = 0;
-        // 当n不为0
-        while (!n.equals(BigDecimal.ZERO)) {
-            // 判断个位数是不是为0
-            if (n.remainder(BigDecimal.TEN).equals(BigDecimal.ZERO)) {
-                // 个位为0结果加一
-                count++;
-            } else {
-                return count;
-            }
-            // 除以10等于去掉个位
-            n = n.divide(BigDecimal.TEN, RoundingMode.DOWN);
-        }
-        return count;
-    }
 }
