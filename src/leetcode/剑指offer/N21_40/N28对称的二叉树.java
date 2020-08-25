@@ -1,6 +1,5 @@
 package leetcode.剑指offer.N21_40;
 
-import org.junit.Test;
 import 剑指offer.TreeNode;
 
 /**
@@ -31,12 +30,6 @@ import 剑指offer.TreeNode;
  */
 public class N28对称的二叉树 {
 
-    @Test
-    public void test() {
-        TreeNode treeNode = new TreeNode(1);
-        treeNode.right = new TreeNode(2);
-    }
-
     public boolean isSymmetric(TreeNode root) {
         return root == null || isSymmetricImpl(root.left, root.right);
     }
@@ -51,6 +44,7 @@ public class N28对称的二叉树 {
         if (A.val != B.val) {
             return false;
         }
+        // 左右互调一下
         return isSymmetricImpl(A.left, B.right) && isSymmetricImpl(A.right, B.left);
     }
 
