@@ -43,10 +43,7 @@ public class N46把数字翻译成字符串 {
             //​           // 和 x_{i-1}x
             // i−1
             //​           // 组成的两位数字可以被翻译，则 dp[i] = dp[i - 1] + dp[i - 2]dp[i]=dp[i−1]+dp[i−2] ；否则 dp[i] = dp[i - 1]dp[i]=dp[i−1] 。
-
-            if (canTrans(string.charAt(i - 1), string.charAt(i))) {
-                results[i + 1] = results[i] + results[i - 1];
-            } else {
+                        if (canTrans(string.charAt(i - 1), string.charAt(i))) {                results[i + 1] = results[i] + results[i - 1];            } else {
                 results[i + 1] = results[i];
             }
         }
