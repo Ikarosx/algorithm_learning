@@ -1,4 +1,4 @@
-package interview.五八同城;
+package interview.五八同城.五八20201011;
 
 import java.util.ArrayList;
 import org.junit.Test;
