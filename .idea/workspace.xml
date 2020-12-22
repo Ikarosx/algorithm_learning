@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/N101背包.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/N1025除数博弈.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/N121买卖股票的最佳时机.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/N53最大子序和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/dp/面试题1716按摩师.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/w220/N5629重新格式化电话号码.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/w220/N5630删除子数组的最大得分.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/w220/N5631跳跃游戏VI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N103二叉树的锯齿形层序遍历.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N746使用最小花费爬楼梯.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +104,7 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N5631跳跃游戏VI">
+  <component name="RunManager" selected="JUnit.N746使用最小花费爬楼梯.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -118,22 +112,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N5629重新格式化电话号码.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.周赛.w220.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.周赛.w220" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w220.N5629重新格式化电话号码" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,13 +178,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N746使用最小花费爬楼梯.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.sign" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N746使用最小花费爬楼梯" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N746使用最小花费爬楼梯.test" />
         <item itemvalue="JUnit.N5631跳跃游戏VI" />
         <item itemvalue="JUnit.N5631跳跃游戏VI.test" />
         <item itemvalue="JUnit.N5630删除子数组的最大得分.test" />
         <item itemvalue="JUnit.N5630删除子数组的最大得分" />
-        <item itemvalue="JUnit.N5629重新格式化电话号码.test" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +266,7 @@
       <workItem from="1608118755951" duration="1252000" />
       <workItem from="1608216782775" duration="8019000" />
       <workItem from="1608392614699" duration="607000" />
-      <workItem from="1608431856084" duration="9620000" />
+      <workItem from="1608431856084" duration="16793000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -358,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608220423041</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="20201220 leetcode周赛220 dp练习">
+      <created>1608468448730</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608468448730</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,7 +378,8 @@
     <MESSAGE value="20200912/13 二刷剑指offer 5题" />
     <MESSAGE value="202010 提交58笔试和字节笔试" />
     <MESSAGE value="20201217 更新面试题目" />
-    <option name="LAST_COMMIT_MESSAGE" value="20201217 更新面试题目" />
+    <MESSAGE value="20201220 leetcode周赛220 dp练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201220 leetcode周赛220 dp练习" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608434679715">
@@ -388,26 +390,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608431946524" />
-    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1608220421409">
+    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1608468447856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608220421409" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1608446553958">
+    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608468447856" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1608524318849">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608446553958" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1608446553957">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608524318849" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1608524318848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608446553957" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1608446553957">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608524318848" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1608524318848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608446553957" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1608446553958">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608524318848" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1608524318848">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608446553958" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608524318848" />
     <state width="1877" height="500" key="GridCell.Tab.1.bottom" timestamp="1608436586866">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
