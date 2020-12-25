@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N135分发糖果.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N455分发饼干.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,14 +103,16 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N135分发糖果.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N455分发饼干.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,6 +149,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N455分发饼干.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.sign" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N455分发饼干" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N5631跳跃游戏VI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning" />
       <extension name="coverage">
@@ -158,22 +176,6 @@
       <option name="PACKAGE_NAME" value="leetcode.周赛.w220" />
       <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w220.N5631跳跃游戏VI" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N5631跳跃游戏VI.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.周赛.w220.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.周赛.w220" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w220.N5631跳跃游戏VI" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N455分发饼干.test" />
         <item itemvalue="JUnit.N135分发糖果.test" />
         <item itemvalue="JUnit.N387字符串中的第一个唯一字符.test" />
         <item itemvalue="JUnit.N746使用最小花费爬楼梯.test" />
         <item itemvalue="JUnit.N5631跳跃游戏VI" />
-        <item itemvalue="JUnit.N5631跳跃游戏VI.test" />
       </list>
     </recent_temporary>
   </component>
@@ -269,6 +271,7 @@
       <workItem from="1608431856084" duration="16864000" />
       <workItem from="1608721629951" duration="1055000" />
       <workItem from="1608811551941" duration="7994000" />
+      <workItem from="1608860115832" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -400,6 +403,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="20201223 签到题 1道" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608879388970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879388970" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1608434679715">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -416,38 +423,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="85" key="DiffContextDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608722573900" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1608818946442">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1608879625531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818946442" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1608818946442">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879625531" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1608879625531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818946442" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1608818946442">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879625531" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1608879625530">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818946442" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1608818946442">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879625530" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1608879625531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818946442" />
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1608818928043">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879625531" />
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1608879578318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818928043" />
-    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1608818928043">
+    <state width="1877" height="281" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879578318" />
+    <state width="1877" height="281" key="GridCell.Tab.1.center" timestamp="1608879578318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818928043" />
-    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1608818928042">
+    <state width="1877" height="281" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879578318" />
+    <state width="1877" height="281" key="GridCell.Tab.1.left" timestamp="1608879578318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818928042" />
-    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1608818928043">
+    <state width="1877" height="281" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879578318" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right" timestamp="1608879578318">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608818928043" />
+    <state width="1877" height="281" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879578318" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608722595645">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
