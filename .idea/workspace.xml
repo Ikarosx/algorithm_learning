@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20201228-30 股票系列 + 签到题">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N435无重叠区间.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1500/N1541平衡括号字符串的最少插入次数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/面试题/N16_05阶乘尾数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N39滑动窗口最大值.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N605种花问题.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +88,7 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N16_05阶乘尾数.test">
+  <component name="RunManager" selected="JUnit.N39滑动窗口最大值.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -97,22 +96,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N123买卖股票的最佳时机III.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.dp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.dp" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.dp.N123买卖股票的最佳时机III" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -164,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N188买卖股票的最佳时机IV.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N39滑动窗口最大值.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning" />
       <extension name="coverage">
         <pattern>
@@ -173,7 +156,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode.sign" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N188买卖股票的最佳时机IV" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N39滑动窗口最大值" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N605种花问题.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.sign" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N605种花问题" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N39滑动窗口最大值.test" />
+        <item itemvalue="JUnit.N605种花问题.test" />
         <item itemvalue="JUnit.N16_05阶乘尾数.test" />
         <item itemvalue="JUnit.N16_05阶乘尾数" />
         <item itemvalue="JUnit.N1541平衡括号字符串的最少插入次数.test" />
-        <item itemvalue="JUnit.N188买卖股票的最佳时机IV.test" />
-        <item itemvalue="JUnit.N123买卖股票的最佳时机III.test" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +257,7 @@
       <workItem from="1608860115832" duration="3586000" />
       <workItem from="1608986010577" duration="23408000" />
       <workItem from="1609064931277" duration="13566000" />
-      <workItem from="1609254359208" duration="33527000" />
+      <workItem from="1609254359208" duration="36173000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609315611283</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="20201231 签到题">
+      <created>1609429276894</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1609429276894</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +441,8 @@
     <MESSAGE value="20201227 周赛W221" />
     <MESSAGE value="20201227 蓝桥杯校内赛" />
     <MESSAGE value="20201228-30 股票系列 + 签到题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20201228-30 股票系列 + 签到题" />
+    <MESSAGE value="20201231 签到题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201231 签到题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608879388970">
@@ -450,10 +457,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608431946524" />
-    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1609425626407">
+    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1609429274225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609425626407" />
+    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609429274225" />
     <state x="181" y="85" key="DiffContextDialog" timestamp="1608722573900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -462,22 +469,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="791" y="344" key="FileChooserDialogImpl/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609064799452" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609334035201">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609563033778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609334035201" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1609334035201">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609563033778" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1609563033777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609334035201" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1609334035201">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609563033777" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1609563033777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609334035201" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1609334035201">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609563033777" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1609563033777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609334035201" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609563033777" />
     <state width="1877" height="281" key="GridCell.Tab.1.bottom" timestamp="1609318947267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -514,10 +521,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="279" key="extract.method.dialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609000753088" />
-    <state x="623" y="225" key="search.everywhere.popup" timestamp="1609257843937">
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1609562989731">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" key="search.everywhere.popup/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609257843937" />
+    <state x="623" y="225" key="search.everywhere.popup/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609562989731" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
