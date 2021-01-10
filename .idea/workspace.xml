@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="">
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210105-09 签到">
       <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛75/A广义肥波.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛75/B小D和他的魔法石.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N509斐波那契数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N167两数之和II输入有序数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N168Excel表列名称.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N171Excel表列序号.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N228汇总区间.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/d43/N5633计算力扣银行的钱.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/周赛/d43/N5634删除子字符串的最大得分.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N172阶乘后的零.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N175组合两个表.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N176第二高的薪水.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N181超过经理收入的员工.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N182查找重复的电子邮箱.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N183从不订购的客户.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +84,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -92,92 +97,93 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N168Excel表列名称.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N5634删除子字符串的最大得分">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N189旋转数组.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.sign" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N189旋转数组" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N228汇总区间.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.sign" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N228汇总区间" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N5633计算力扣银行的钱.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.周赛.d43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.周赛.d43" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.d43.N5633计算力扣银行的钱" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N5634删除子字符串的最大得分" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.周赛.d43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.周赛.d43" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.d43.N5634删除子字符串的最大得分" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N125验证回文串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N5634删除子字符串的最大得分.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.序号.n100.*" />
+          <option name="PATTERN" value="leetcode.周赛.d43.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N125验证回文串" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N168Excel表列名称.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n100.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N168Excel表列名称" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N5642大餐计数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.周赛.w222.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.周赛.w222" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w222.N5642大餐计数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N5643将数组分成三个子数组的方案数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.周赛.w222.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.周赛.w222" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w222.N5643将数组分成三个子数组的方案数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N8字符串转换整数atoi.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n0" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n0.N8字符串转换整数atoi" />
+      <option name="PACKAGE_NAME" value="leetcode.周赛.d43" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.d43.N5634删除子字符串的最大得分" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -186,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.N168Excel表列名称.test" />
-        <item itemvalue="JUnit.N125验证回文串.test" />
-        <item itemvalue="JUnit.N5643将数组分成三个子数组的方案数.test" />
-        <item itemvalue="JUnit.N5642大餐计数.test" />
-        <item itemvalue="JUnit.N8字符串转换整数atoi.test" />
+        <item itemvalue="JUnit.N5634删除子字符串的最大得分" />
+        <item itemvalue="JUnit.N5634删除子字符串的最大得分.test" />
+        <item itemvalue="JUnit.N228汇总区间.test" />
+        <item itemvalue="JUnit.N5633计算力扣银行的钱.test" />
+        <item itemvalue="JUnit.N189旋转数组.test" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +268,13 @@
       <workItem from="1608860115832" duration="3586000" />
       <workItem from="1608986010577" duration="23408000" />
       <workItem from="1609064931277" duration="13566000" />
-      <workItem from="1609254359208" duration="84876000" />
+      <workItem from="1609254359208" duration="84952000" />
+      <workItem from="1609861757803" duration="806000" />
+      <workItem from="1609894875223" duration="3081000" />
+      <workItem from="1610177891125" duration="3484000" />
+      <workItem from="1610181478629" duration="79000" />
+      <workItem from="1610181618379" duration="7441000" />
+      <workItem from="1610205189624" duration="5890000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -439,15 +451,27 @@
       <option name="project" value="LOCAL" />
       <updated>1609680547983</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="20210104 签到 + 简单找回自信题">
+      <created>1609743525128</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1609743525128</updated>
+    </task>
+    <task id="LOCAL-00027" summary="20210105-09 签到">
+      <created>1610196835352</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1610196835352</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="两场天池比赛&#10;二刷剑指offer 33-37" />
-    <MESSAGE value="20200902 二刷剑指offer6题" />
     <MESSAGE value="20200905 二刷剑指offer 3题" />
     <MESSAGE value="20200906 二刷剑指offer 4题" />
     <MESSAGE value="20200907 二刷剑指offer 2题" />
@@ -471,25 +495,27 @@
     <MESSAGE value="20210101.02 签到题" />
     <MESSAGE value="20210101.03 签到题" />
     <MESSAGE value="20210103 周赛 + 简单找回自信题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210103 周赛 + 简单找回自信题" />
+    <MESSAGE value="20210104 签到 + 简单找回自信题" />
+    <MESSAGE value="20210105-09 签到" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210105-09 签到" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608879388970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608879388970" />
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1609067653757">
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1610180315942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609067653757" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610180315942" />
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608431946524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608431946524" />
-    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1609680544654">
+    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1610203426727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609680544654" />
+    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610203426727" />
     <state x="181" y="85" key="DiffContextDialog" timestamp="1608722573900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -498,38 +524,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="791" y="344" key="FileChooserDialogImpl/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609064799452" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609742439841">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1610244261643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742439841" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1609742439841">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244261643" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1610244261643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742439841" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1609742439840">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244261643" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1610244261643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742439840" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1609742439841">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244261643" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1610244261643">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742439841" />
-    <state width="1877" height="349" key="GridCell.Tab.1.bottom" timestamp="1609742138796">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244261643" />
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom" timestamp="1610244236004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742138796" />
-    <state width="1877" height="349" key="GridCell.Tab.1.center" timestamp="1609742138796">
+    <state width="1877" height="349" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244236004" />
+    <state width="1877" height="349" key="GridCell.Tab.1.center" timestamp="1610244236004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742138796" />
-    <state width="1877" height="349" key="GridCell.Tab.1.left" timestamp="1609742138796">
+    <state width="1877" height="349" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244236004" />
+    <state width="1877" height="349" key="GridCell.Tab.1.left" timestamp="1610244236004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742138796" />
-    <state width="1877" height="349" key="GridCell.Tab.1.right" timestamp="1609742138796">
+    <state width="1877" height="349" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244236004" />
+    <state width="1877" height="349" key="GridCell.Tab.1.right" timestamp="1610244236004">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="349" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609742138796" />
+    <state width="1877" height="349" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610244236004" />
     <state width="1877" height="281" key="GridCell.Tab.2.bottom" timestamp="1609588264064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -550,14 +576,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="650" y="221" key="RollbackChangesDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609072479333" />
-    <state x="491" y="164" key="SettingsEditor" timestamp="1609256794631">
+    <state x="491" y="164" key="SettingsEditor" timestamp="1610181649034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="491" y="164" key="SettingsEditor/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609256794631" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1609680557590">
+    <state x="491" y="164" key="SettingsEditor/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610181649034" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610196849704">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609680557590" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610196849704" />
     <state x="742" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609001302442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
