@@ -4,11 +4,9 @@
     <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210105-09 签到">
       <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛75/A广义肥波.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛75/B小D和他的魔法石.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1018可被5整除的二进制前缀.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1203项目管理.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N684冗余连接.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N207课程表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/序号/n0/N18四数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/序号/n0/N18四数之和.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,13 +93,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N1203项目管理">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -272,7 +272,8 @@
       <workItem from="1610294487379" duration="14287000" />
       <workItem from="1610414250528" duration="16456000" />
       <workItem from="1610466153187" duration="41501000" />
-      <workItem from="1610551365312" duration="1143000" />
+      <workItem from="1610551365312" duration="1240000" />
+      <workItem from="1610615573592" duration="2134000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -484,15 +485,20 @@
       <option name="project" value="LOCAL" />
       <updated>1610362592723</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="20210113 签到题 + 拓扑排序1题">
+      <created>1610552566533</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1610552566533</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20200908 二刷剑指offer 2题" />
-    <MESSAGE value="20200909 二刷剑指offer 4题" />
     <MESSAGE value="20200910 二刷剑指offer 7题" />
     <MESSAGE value="20200911 二刷剑指offer 5题" />
     <MESSAGE value="20200912/13 二刷剑指offer 5题" />
@@ -516,7 +522,9 @@
     <MESSAGE value="20210110 签到 + 双周赛43 + 简单找回自信题" />
     <MESSAGE value="20210110 周赛223" />
     <MESSAGE value="20210111 签到 + 做题" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210111 签到 + 做题" />
+    <MESSAGE value="签到题 + 拓扑排序1题" />
+    <MESSAGE value="20210113 签到题 + 拓扑排序1题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210113 签到题 + 拓扑排序1题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1608879388970">
@@ -531,10 +539,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="488" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1608431946524" />
-    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1610364731617">
+    <state x="469" y="85" key="CommitChangelistDialog2" timestamp="1610552563663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610364731617" />
+    <state x="469" y="85" key="CommitChangelistDialog2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610552563663" />
     <state x="181" y="85" key="DiffContextDialog" timestamp="1608722573900">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -611,10 +619,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="446" key="SwitcherDM/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610296440908" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610364957926">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610552584448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610364957926" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610552584448" />
     <state x="742" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610364875663">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
