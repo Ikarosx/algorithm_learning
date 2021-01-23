@@ -1,6 +1,8 @@
 package leetcode.sign;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 给你一个变量对数组 equations 和一个实数值数组 values 作为已知条件，其中 equations[i] = [Ai, Bi] 和 values[i] 共同表示等式 Ai / Bi = values[i] 。每个 Ai 或 Bi 是一个表示单个变量的字符串。
@@ -53,8 +55,78 @@ import java.util.List;
  * @date 2021/1/6 9:08
  */
 public class N399除法求值 {
-    public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
-        // TODO
-        return null;
+
+    int[] fa;
+    double[] weight;
+
+    public int find(int x) {
+        if (x != fa[x]) {
+            int origin = fa[x];
+            fa[x] = find(fa[x]);
+            weight[x] *= weight[origin];
+        }
+        return fa[x];
+    }
+
+    public void union(int x, int y, double value) {
+        // x / y = value
+        int rootX = find(x);
+        int rootY = find(y);
+        fa[rootX] = rootY;
+        weight[rootX] = weight[y] * value / weight[x];
+    }
+
+    public double[] calcEquation(List<List<String>> equations, double[] values,
+        List<List<String>> queries) {
+        Map<String, Integer> map = new HashMap<>();
+        int size = equations.size();
+        weight = new double[size * 2];
+        fa = new int[size * 2];
+        for (int i = 0; i < fa.length; i++) {
+            fa[i] = i;
+            weight[i] = 1.0;
+        }
+        // 预处理字符串与id的映射，底层可以使用数组表示
+        int id = 0;
+        for (int i = 0; i < size; i++) {
+            List<String> strings = equations.get(i);
+            String a = strings.get(0);
+            String b = strings.get(1);
+            if (!map.containsKey(a)) {
+                map.put(a, id++);
+            }
+            if (!map.containsKey(b)) {
+                map.put(b, id++);
+            }
+            union(map.get(a), map.get(b), values[i]);
+        }
+        // 第 2 步：做查询
+        int queriesSize = queries.size();
+        double[] res = new double[queriesSize];
+        for (int i = 0; i < queriesSize; i++) {
+            String var1 = queries.get(i).get(0);
+            String var2 = queries.get(i).get(1);
+
+            Integer id1 = map.get(var1);
+            Integer id2 = map.get(var2);
+
+            if (id1 == null || id2 == null) {
+                res[i] = -1.0d;
+            } else {
+                res[i] = isConnected(id1, id2);
+            }
+        }
+        return res;
+    }
+
+    private double isConnected(Integer x, Integer y) {
+        int rootX = find(x);
+        int rootY = find(y);
+        if (rootX == rootY) {
+            return weight[x] / weight[y];
+        } else {
+            return -1.0d;
+        }
+
     }
 }
