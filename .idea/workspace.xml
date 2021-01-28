@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210126 签到">
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210127 并查集两题">
       <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1203项目管理.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1489找到最小生成树里的关键边和伪关键边.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1584连接所有点的最小花费.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N947移除最多的同行或同列石头.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N959由斜杠划分区域.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N724寻找数组的中心索引.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,13 +87,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/test/Demo.java" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/src/test/Demo.java&#10;E:/desktop/algorithm_learning/src/test/sort_Score.java" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../Software/Android/android-sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="introduce.parameter.lambda" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,7 +107,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -116,12 +116,33 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\desktop\algorithm_learning\src\test" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\lib" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\contest" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N947移除最多的同行或同列石头">
+  <component name="RunManager" selected="Application.sort_Score">
+    <configuration name="sort_Score (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort_Score" />
+      <module name="algorithm_learning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sort_Score" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.sort_Score" />
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -129,22 +150,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N5662满足三条件之一需改变的最少字符数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.周赛.w225.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.周赛.w225" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.周赛.w225.N5662满足三条件之一需改变的最少字符数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,29 +200,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N959由斜杠划分区域.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.sign" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N959由斜杠划分区域" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.sort_Score" />
+        <item itemvalue="Application.sort_Score (1)" />
         <item itemvalue="JUnit.N947移除最多的同行或同列石头" />
         <item itemvalue="JUnit.N947移除最多的同行或同列石头.test" />
         <item itemvalue="JUnit.N959由斜杠划分区域" />
-        <item itemvalue="JUnit.N959由斜杠划分区域.test" />
-        <item itemvalue="JUnit.N5662满足三条件之一需改变的最少字符数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +311,10 @@
       <workItem from="1611669990017" duration="2036000" />
       <workItem from="1611713535238" duration="2735000" />
       <workItem from="1611727378881" duration="973000" />
-      <workItem from="1611733494040" duration="4195000" />
+      <workItem from="1611733494040" duration="6686000" />
+      <workItem from="1611742714710" duration="5375000" />
+      <workItem from="1611751272212" duration="132000" />
+      <workItem from="1611751599888" duration="2733000" />
     </task>
     <task id="LOCAL-00001" summary="两场天池比赛&#10;二刷剑指offer 33-37">
       <created>1598925357034</created>
@@ -583,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611673496748</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="20210127 并查集两题">
+      <created>1611738136350</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1611738136350</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -602,7 +601,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20201223 签到题 1道" />
     <MESSAGE value="20201225 签到题 1道" />
     <MESSAGE value="20201227 签到题 1道 双周赛D42" />
     <MESSAGE value="20201227 签到题 1道" />
@@ -627,7 +625,8 @@
     <MESSAGE value="20210124 双周赛" />
     <MESSAGE value="20210124 双周赛44" />
     <MESSAGE value="20210126 签到" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210126 签到" />
+    <MESSAGE value="20210127 并查集两题" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210127 并查集两题" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="299" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1611734828631">
@@ -665,45 +664,45 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="440" width="626" height="159" key="GitCloneDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610245644943" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1611737674013">
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611737674013" />
+    <state width="1493" height="246" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1611737674013">
+    <state width="1493" height="246" key="GridCell.Tab.0.center" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611737674013" />
+    <state width="1493" height="246" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1611737674013">
+    <state width="1493" height="246" key="GridCell.Tab.0.left" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611737674013" />
+    <state width="1493" height="246" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1611737674013">
+    <state width="1493" height="246" key="GridCell.Tab.0.right" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611737674013" />
+    <state width="1493" height="246" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1611736596748">
+    <state width="1493" height="246" key="GridCell.Tab.1.bottom" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611736596748" />
+    <state width="1493" height="246" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="349" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1611736596748">
+    <state width="1493" height="246" key="GridCell.Tab.1.center" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611736596748" />
+    <state width="1493" height="246" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="349" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1611736596748">
+    <state width="1493" height="246" key="GridCell.Tab.1.left" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611736596748" />
+    <state width="1493" height="246" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="349" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1611736596748">
+    <state width="1493" height="246" key="GridCell.Tab.1.right" timestamp="1611751405076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611736596748" />
+    <state width="1493" height="246" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611751405076" />
     <state width="1877" height="349" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
     <state width="1877" height="281" key="GridCell.Tab.2.bottom" timestamp="1609588264064">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -730,10 +729,10 @@
     </state>
     <state x="520" y="175" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1611286970026" />
     <state x="650" y="221" key="RollbackChangesDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1609072479333" />
-    <state x="324" y="114" key="SettingsEditor" timestamp="1611734830616">
+    <state x="413" y="54" key="SettingsEditor" timestamp="1611743798286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="324" y="114" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611734830616" />
+    <state x="413" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611743798286" />
     <state x="491" y="164" key="SettingsEditor/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610506682878" />
     <state x="681" y="261" width="540" height="524" key="StructurePopup" timestamp="1610296806695">
       <screen x="0" y="0" width="1920" height="1040" />
