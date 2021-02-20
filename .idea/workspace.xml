@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210218 签到">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N1004最大连续1的个数III.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210219 签到">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N697数组的度.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,13 +121,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N5675最接近目标值的子序列和.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,14 +342,8 @@
       <workItem from="1613213686085" duration="4626000" />
       <workItem from="1613526077453" duration="447000" />
       <workItem from="1613614534084" duration="3449000" />
-      <workItem from="1613710087697" duration="4530000" />
-    </task>
-    <task id="LOCAL-00006" summary="20200908 二刷剑指offer 2题">
-      <created>1599527042326</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1599527042327</updated>
+      <workItem from="1613710087697" duration="4564000" />
+      <workItem from="1613789368076" duration="5893000" />
     </task>
     <task id="LOCAL-00007" summary="20200909 二刷剑指offer 4题">
       <created>1599698227855</created>
@@ -685,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613627488356</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="20210219 签到">
+      <created>1613714687356</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1613714687356</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -704,7 +707,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="签到题 + 拓扑排序1题" />
     <MESSAGE value="20210113 签到题 + 拓扑排序1题" />
     <MESSAGE value="20210114 签到" />
     <MESSAGE value="20210117 签到 + 周赛" />
@@ -729,7 +731,8 @@
     <MESSAGE value="20210215/16 签到" />
     <MESSAGE value="20210217 签到" />
     <MESSAGE value="20210218 签到" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210218 签到" />
+    <MESSAGE value="20210219 签到" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210219 签到" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="299" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1612074884574">
@@ -846,10 +849,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="446" key="SwitcherDM/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610296440908" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1613627495033">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1613714696825">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613627495033" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613714696825" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892063518" />
     <state x="485" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611734925655">
       <screen x="0" y="0" width="1536" height="824" />
