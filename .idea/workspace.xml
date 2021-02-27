@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="2021022126 签到">
-      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛77/A小G的sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛77/B小G的GCD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛77/C小G的约数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客练习赛77/D小G的LY数对.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1400/N1480一维数组的动态和.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="2021022126 牛客练习赛77">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N395至少有K个重复字符的最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N896单调数列.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -173,6 +170,19 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -327,14 +337,7 @@
       <workItem from="1613922517101" duration="8497000" />
       <workItem from="1614045057659" duration="9104000" />
       <workItem from="1614325458128" duration="7797000" />
-      <workItem from="1614432030669" duration="1190000" />
-    </task>
-    <task id="LOCAL-00012" summary="20201217 更新面试题目">
-      <created>1608220423041</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1608220423041</updated>
+      <workItem from="1614432030669" duration="2812000" />
     </task>
     <task id="LOCAL-00013" summary="20201220 leetcode周赛220 dp练习">
       <created>1608468448730</created>
@@ -672,7 +675,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614300828634</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="2021022126 牛客练习赛77">
+      <created>1614436977630</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1614436977631</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +701,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210124 双周赛" />
     <MESSAGE value="20210124 双周赛44" />
     <MESSAGE value="20210126 签到" />
     <MESSAGE value="20210127 并查集两题" />
@@ -716,7 +725,8 @@
     <MESSAGE value="2021022123 签到" />
     <MESSAGE value="202102212425 签到" />
     <MESSAGE value="2021022126 签到" />
-    <option name="LAST_COMMIT_MESSAGE" value="2021022126 签到" />
+    <MESSAGE value="2021022126 牛客练习赛77" />
+    <option name="LAST_COMMIT_MESSAGE" value="2021022126 牛客练习赛77" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="299" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1612074884574">
@@ -833,11 +843,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="446" key="SwitcherDM/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610296440908" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1614300830769">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="553" y="252" key="Vcs.Push.Dialog.v2" timestamp="1614436980834">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614300830769" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892063518" />
+    <state x="553" y="252" key="Vcs.Push.Dialog.v2/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1614436980834" />
     <state x="485" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611734925655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
