@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210319 签到">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N150逆波兰表达式求值.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210320 签到">
+      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客小白月赛32/A拼三角.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客小白月赛32/B相对分子质量.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客小白月赛32/C消减整数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contest/牛客/牛客小白月赛32/E春游.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/sign/N73矩阵置零.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +125,33 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N150逆波兰表达式求值.test">
+  <component name="RunManager" selected="Application.A拼三角">
+    <configuration name="A拼三角" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contest.牛客.牛客小白月赛32.A拼三角" />
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contest.牛客.牛客小白月赛32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C消减整数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="contest.牛客.牛客小白月赛32.C消减整数" />
+      <module name="algorithm_learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="contest.牛客.牛客小白月赛32.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -129,22 +159,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N1047删除字符串中的所有相邻重复项.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.sign" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N1047删除字符串中的所有相邻重复项" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,29 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N338比特位计数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.sign.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.sign" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.sign.N338比特位计数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.A拼三角" />
+        <item itemvalue="Application.C消减整数" />
         <item itemvalue="JUnit.N150逆波兰表达式求值.test" />
         <item itemvalue="JUnit.N16数值的整数次方" />
         <item itemvalue="JUnit.N16数值的整数次方.test" />
-        <item itemvalue="JUnit.N1047删除字符串中的所有相邻重复项.test" />
-        <item itemvalue="JUnit.N338比特位计数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -367,14 +365,7 @@
       <workItem from="1615647955220" duration="5907000" />
       <workItem from="1615713128838" duration="5299000" />
       <workItem from="1615774214093" duration="7472000" />
-      <workItem from="1616116764599" duration="6028000" />
-    </task>
-    <task id="LOCAL-00022" summary="20201231 签到题">
-      <created>1609429276894</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1609429276894</updated>
+      <workItem from="1616116764599" duration="18190000" />
     </task>
     <task id="LOCAL-00023" summary="20210101.02 签到题">
       <created>1609564456059</created>
@@ -712,7 +703,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616117206609</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="20210320 签到">
+      <created>1616171617560</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1616171617560</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -731,7 +729,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210203-06 签到" />
     <MESSAGE value="2021020708 签到 + leetcode周赛227" />
     <MESSAGE value="20210209 签到" />
     <MESSAGE value="20210210 签到" />
@@ -756,7 +753,8 @@
     <MESSAGE value="20210306 签到" />
     <MESSAGE value="20210307 签到" />
     <MESSAGE value="20210319 签到" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210319 签到" />
+    <MESSAGE value="20210320 签到" />
+    <option name="LAST_COMMIT_MESSAGE" value="20210320 签到" />
   </component>
   <component name="WindowStateProjectService">
     <state x="539" y="299" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1612074884574">
@@ -797,54 +795,54 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="652" y="440" width="626" height="159" key="GitCloneDialog/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610245644943" />
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom" timestamp="1616171338183">
+    <state width="1876" height="323" key="GridCell.Tab.0.bottom" timestamp="1616242636602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614354140419" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1876" height="348" key="GridCell.Tab.0.bottom/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171338183" />
-    <state width="1876" height="348" key="GridCell.Tab.0.center" timestamp="1616171338181">
+    <state width="1876" height="323" key="GridCell.Tab.0.bottom/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616242636602" />
+    <state width="1876" height="323" key="GridCell.Tab.0.center" timestamp="1616242636598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="243" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614354140419" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1876" height="348" key="GridCell.Tab.0.center/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171338181" />
-    <state width="1876" height="348" key="GridCell.Tab.0.left" timestamp="1616171338181">
+    <state width="1876" height="323" key="GridCell.Tab.0.center/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616242636598" />
+    <state width="1876" height="323" key="GridCell.Tab.0.left" timestamp="1616242636596">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="243" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614354140419" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1876" height="348" key="GridCell.Tab.0.left/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171338181" />
-    <state width="1876" height="348" key="GridCell.Tab.0.right" timestamp="1616171338182">
+    <state width="1876" height="323" key="GridCell.Tab.0.left/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616242636596" />
+    <state width="1876" height="323" key="GridCell.Tab.0.right" timestamp="1616242636600">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="243" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614354140419" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092155" />
-    <state width="1876" height="348" key="GridCell.Tab.0.right/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171338182" />
-    <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1616171337602">
+    <state width="1876" height="323" key="GridCell.Tab.0.right/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616242636600" />
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom" timestamp="1616240720976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="262" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614300839058" />
     <state width="1877" height="349" key="GridCell.Tab.1.bottom/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1876" height="348" key="GridCell.Tab.1.bottom/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171337602" />
-    <state width="1876" height="348" key="GridCell.Tab.1.center" timestamp="1616171337602">
+    <state width="1876" height="348" key="GridCell.Tab.1.bottom/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616240720976" />
+    <state width="1876" height="348" key="GridCell.Tab.1.center" timestamp="1616240720975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="262" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614300839057" />
     <state width="1877" height="349" key="GridCell.Tab.1.center/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1876" height="348" key="GridCell.Tab.1.center/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171337602" />
-    <state width="1876" height="348" key="GridCell.Tab.1.left" timestamp="1616171337602">
+    <state width="1876" height="348" key="GridCell.Tab.1.center/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616240720975" />
+    <state width="1876" height="348" key="GridCell.Tab.1.left" timestamp="1616240720975">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="262" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614300839057" />
     <state width="1877" height="349" key="GridCell.Tab.1.left/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1876" height="348" key="GridCell.Tab.1.left/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171337602" />
-    <state width="1876" height="348" key="GridCell.Tab.1.right" timestamp="1616171337602">
+    <state width="1876" height="348" key="GridCell.Tab.1.left/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616240720975" />
+    <state width="1876" height="348" key="GridCell.Tab.1.right" timestamp="1616240720976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1492" height="262" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614300839057" />
     <state width="1877" height="349" key="GridCell.Tab.1.right/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892092146" />
-    <state width="1876" height="348" key="GridCell.Tab.1.right/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171337602" />
+    <state width="1876" height="348" key="GridCell.Tab.1.right/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616240720976" />
     <state width="1877" height="281" key="GridCell.Tab.2.bottom" timestamp="1609588264064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -885,12 +883,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="510" height="446" key="SwitcherDM/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610296440908" />
-    <state x="553" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616117209280">
+    <state x="553" y="252" key="Vcs.Push.Dialog.v2" timestamp="1616171626267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1614300830769" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.-308.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1610892063518" />
-    <state x="553" y="252" key="Vcs.Push.Dialog.v2/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616117209280" />
+    <state x="553" y="252" key="Vcs.Push.Dialog.v2/1920.174.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1616171626267" />
     <state x="485" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1611734925655">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
