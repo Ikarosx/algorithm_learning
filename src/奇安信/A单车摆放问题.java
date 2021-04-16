@@ -15,6 +15,8 @@ public class A单车摆放问题 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         // num
+
+       //ssdasd
         int n = scanner.nextInt();
         HashMap<String, Integer> map = new HashMap<>();
         for (int i = 0; i < n; i++) {
