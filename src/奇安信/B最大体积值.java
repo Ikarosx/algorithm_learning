@@ -11,6 +11,8 @@ public class B最大体积值 {
 
     Set<Long> list;
 
+
+
     private B最大体积值() {
         list = new HashSet<>();
         for (long i = 1; i <= 10000; i++) {
