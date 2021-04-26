@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N202快乐数 set去重">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N203移除链表元素.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N203移除链表元素 哨兵结点">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N204计数质数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,30 +118,19 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="leetcode.sign" />
-      <recent name="interview.美团点评.美团20201018校招" />
-      <recent name="interview.微众银行.微众银行20201015" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\desktop\algorithm_learning\src\test" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\lib" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\contest" />
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.sign" />
+      <recent name="interview.美团点评.美团20201018校招" />
+      <recent name="interview.微众银行.微众银行20201015" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.N202快乐数.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.N204计数质数.test">
     <configuration name="N168Excel表列名称.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -190,6 +179,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N204计数质数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n200.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N204计数质数" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N91解码方法.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -206,29 +211,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N91解码方法.testNumDecodings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n0.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n0" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n0.N91解码方法" />
-      <option name="METHOD_NAME" value="testNumDecodings" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N204计数质数.test" />
         <item itemvalue="JUnit.N202快乐数.test" />
         <item itemvalue="JUnit.N190颠倒二进制位.test" />
         <item itemvalue="JUnit.N168Excel表列名称.test" />
         <item itemvalue="JUnit.N91解码方法.test" />
-        <item itemvalue="JUnit.N91解码方法.testNumDecodings" />
       </list>
     </recent_temporary>
   </component>
@@ -403,14 +392,8 @@
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
       <workItem from="1619398586564" duration="9510000" />
-      <workItem from="1619418162358" duration="2078000" />
-    </task>
-    <task id="LOCAL-00034" summary="20210122 签到">
-      <created>1611286614490</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1611286614490</updated>
+      <workItem from="1619418162358" duration="11119000" />
+      <workItem from="1619431560172" duration="5000" />
     </task>
     <task id="LOCAL-00035" summary="20210123 签到">
       <created>1611372191301</created>
@@ -748,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619419810406</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="N203移除链表元素 哨兵结点">
+      <created>1619420258750</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1619420258750</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -767,7 +757,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="202102212425 签到" />
     <MESSAGE value="2021022126 签到" />
     <MESSAGE value="2021022126 牛客练习赛77" />
     <MESSAGE value="202102212728 签到" />
@@ -792,7 +781,8 @@
     <MESSAGE value="N195第十行 shell" />
     <MESSAGE value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
     <MESSAGE value="N202快乐数 set去重" />
-    <option name="LAST_COMMIT_MESSAGE" value="N202快乐数 set去重" />
+    <MESSAGE value="N203移除链表元素 哨兵结点" />
+    <option name="LAST_COMMIT_MESSAGE" value="N203移除链表元素 哨兵结点" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
