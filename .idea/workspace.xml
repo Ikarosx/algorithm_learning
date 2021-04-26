@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N168Excel表列名称 进制转换">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N190颠倒二进制位.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N190颠倒二进制位 位运算">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N193有效电话号码.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -419,14 +419,7 @@
       <workItem from="1619052226018" duration="1156000" />
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
-      <workItem from="1619398586564" duration="6136000" />
-    </task>
-    <task id="LOCAL-00029" summary="20210110 周赛223">
-      <created>1610254290601</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1610254290601</updated>
+      <workItem from="1619398586564" duration="7209000" />
     </task>
     <task id="LOCAL-00030" summary="20210111 签到 + 做题">
       <created>1610362592723</created>
@@ -764,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619405940591</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="N190颠倒二进制位 位运算">
+      <created>1619407240329</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1619407240329</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +783,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210218 签到" />
     <MESSAGE value="20210219 签到" />
     <MESSAGE value="20210220 签到" />
     <MESSAGE value="2021022122 签到" />
@@ -808,7 +807,8 @@
     <MESSAGE value="20210423 解码方法" />
     <MESSAGE value="N168 进制转换" />
     <MESSAGE value="N168Excel表列名称 进制转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="N168Excel表列名称 进制转换" />
+    <MESSAGE value="N190颠倒二进制位 位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="N190颠倒二进制位 位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
