@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N196删除重复的电子邮箱 JOIN vs SUB QUERY">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N197上升的温度.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N202快乐数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N202快乐数 set去重">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N203移除链表元素.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -404,14 +403,7 @@
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
       <workItem from="1619398586564" duration="9510000" />
-      <workItem from="1619418162358" duration="1377000" />
-    </task>
-    <task id="LOCAL-00033" summary="20210117 签到 + 周赛">
-      <created>1610892061361</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1610892061361</updated>
+      <workItem from="1619418162358" duration="2078000" />
     </task>
     <task id="LOCAL-00034" summary="20210122 签到">
       <created>1611286614490</created>
@@ -749,7 +741,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619417705367</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="N202快乐数 set去重">
+      <created>1619419810405</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1619419810406</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -768,7 +767,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021022123 签到" />
     <MESSAGE value="202102212425 签到" />
     <MESSAGE value="2021022126 签到" />
     <MESSAGE value="2021022126 牛客练习赛77" />
@@ -793,7 +791,8 @@
     <MESSAGE value="N193有效电话号码 shell 正则表达式" />
     <MESSAGE value="N195第十行 shell" />
     <MESSAGE value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
-    <option name="LAST_COMMIT_MESSAGE" value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
+    <MESSAGE value="N202快乐数 set去重" />
+    <option name="LAST_COMMIT_MESSAGE" value="N202快乐数 set去重" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
