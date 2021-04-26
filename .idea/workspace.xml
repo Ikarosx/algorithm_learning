@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N195第十行 shell">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N196删除重复的电子邮箱.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N196删除重复的电子邮箱 JOIN vs SUB QUERY">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N197上升的温度.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N202快乐数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,29 +131,14 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N190颠倒二进制位.test">
-    <configuration name="B最大体积值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="奇安信.B最大体积值" />
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="奇安信.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N202快乐数.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -189,20 +175,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N91解码方法" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N202快乐数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.序号.n0.*" />
+          <option name="PATTERN" value="leetcode.序号.n200.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="leetcode.序号.n0" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n0.N91解码方法" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N202快乐数" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -241,10 +225,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N202快乐数.test" />
         <item itemvalue="JUnit.N190颠倒二进制位.test" />
         <item itemvalue="JUnit.N168Excel表列名称.test" />
         <item itemvalue="JUnit.N91解码方法.test" />
-        <item itemvalue="JUnit.N91解码方法" />
         <item itemvalue="JUnit.N91解码方法.testNumDecodings" />
       </list>
     </recent_temporary>
@@ -419,14 +403,8 @@
       <workItem from="1619052226018" duration="1156000" />
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
-      <workItem from="1619398586564" duration="9074000" />
-    </task>
-    <task id="LOCAL-00032" summary="20210114 签到">
-      <created>1610618008890</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1610618008890</updated>
+      <workItem from="1619398586564" duration="9510000" />
+      <workItem from="1619418162358" duration="1377000" />
     </task>
     <task id="LOCAL-00033" summary="20210117 签到 + 周赛">
       <created>1610892061361</created>
@@ -764,7 +742,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619416426693</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="N196删除重复的电子邮箱 JOIN vs SUB QUERY">
+      <created>1619417705367</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1619417705367</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +768,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021022122 签到" />
     <MESSAGE value="2021022123 签到" />
     <MESSAGE value="202102212425 签到" />
     <MESSAGE value="2021022126 签到" />
@@ -808,7 +792,8 @@
     <MESSAGE value="N190颠倒二进制位 位运算" />
     <MESSAGE value="N193有效电话号码 shell 正则表达式" />
     <MESSAGE value="N195第十行 shell" />
-    <option name="LAST_COMMIT_MESSAGE" value="N195第十行 shell" />
+    <MESSAGE value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
+    <option name="LAST_COMMIT_MESSAGE" value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
