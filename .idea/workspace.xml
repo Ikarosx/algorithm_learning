@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N193有效电话号码 shell 正则表达式">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N195第十行.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N195第十行 shell">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N196删除重复的电子邮箱.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -418,14 +419,7 @@
       <workItem from="1619052226018" duration="1156000" />
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
-      <workItem from="1619398586564" duration="7756000" />
-    </task>
-    <task id="LOCAL-00031" summary="20210113 签到题 + 拓扑排序1题">
-      <created>1610552566533</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1610552566533</updated>
+      <workItem from="1619398586564" duration="9074000" />
     </task>
     <task id="LOCAL-00032" summary="20210114 签到">
       <created>1610618008890</created>
@@ -763,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619415844773</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="N195第十行 shell">
+      <created>1619416426693</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1619416426693</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +783,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210220 签到" />
     <MESSAGE value="2021022122 签到" />
     <MESSAGE value="2021022123 签到" />
     <MESSAGE value="202102212425 签到" />
@@ -807,7 +807,8 @@
     <MESSAGE value="N168Excel表列名称 进制转换" />
     <MESSAGE value="N190颠倒二进制位 位运算" />
     <MESSAGE value="N193有效电话号码 shell 正则表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="N193有效电话号码 shell 正则表达式" />
+    <MESSAGE value="N195第十行 shell" />
+    <option name="LAST_COMMIT_MESSAGE" value="N195第十行 shell" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
