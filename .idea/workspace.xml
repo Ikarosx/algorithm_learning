@@ -19,10 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="20210423 解码方法">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N377组合总合IV.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N168Excel表列名称 进制转换">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N190颠倒二进制位.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/序号/n100/N168Excel表列名称.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N168Excel表列名称.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,20 +130,7 @@
       <recent name="C:\Users\x5322\Desktop\algorithm_learning\src\leetcode\剑指offer\N21_40" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N168Excel表列名称.test">
-    <configuration name="B发奖金" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interview.爱客科技.B发奖金" />
-      <module name="algorithm_learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interview.爱客科技.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.N190颠倒二进制位.test">
     <configuration name="B最大体积值" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="奇安信.B最大体积值" />
       <module name="algorithm_learning" />
@@ -181,6 +167,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
       <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N168Excel表列名称" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N190颠倒二进制位.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n100.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N190颠倒二进制位" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -239,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N190颠倒二进制位.test" />
         <item itemvalue="JUnit.N168Excel表列名称.test" />
         <item itemvalue="JUnit.N91解码方法.test" />
         <item itemvalue="JUnit.N91解码方法" />
         <item itemvalue="JUnit.N91解码方法.testNumDecodings" />
-        <item itemvalue="Application.B发奖金" />
       </list>
     </recent_temporary>
   </component>
@@ -417,14 +419,7 @@
       <workItem from="1619052226018" duration="1156000" />
       <workItem from="1619138871345" duration="1559000" />
       <workItem from="1619225154105" duration="6248000" />
-      <workItem from="1619398586564" duration="4826000" />
-    </task>
-    <task id="LOCAL-00028" summary="20210110 签到 + 双周赛43 + 简单找回自信题">
-      <created>1610244935928</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1610244935928</updated>
+      <workItem from="1619398586564" duration="6136000" />
     </task>
     <task id="LOCAL-00029" summary="20210110 周赛223">
       <created>1610254290601</created>
@@ -762,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619225705434</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="N168Excel表列名称 进制转换">
+      <created>1619405940590</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1619405940591</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,8 +783,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210215/16 签到" />
-    <MESSAGE value="20210217 签到" />
     <MESSAGE value="20210218 签到" />
     <MESSAGE value="20210219 签到" />
     <MESSAGE value="20210220 签到" />
@@ -806,7 +806,9 @@
     <MESSAGE value="202104" />
     <MESSAGE value="20210414 爱客科技 编程猫" />
     <MESSAGE value="20210423 解码方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="20210423 解码方法" />
+    <MESSAGE value="N168 进制转换" />
+    <MESSAGE value="N168Excel表列名称 进制转换" />
+    <option name="LAST_COMMIT_MESSAGE" value="N168Excel表列名称 进制转换" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
