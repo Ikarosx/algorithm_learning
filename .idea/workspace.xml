@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N204计数质数 筛素数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n900/N938二叉搜索树的范围和.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N938二叉搜索树的范围和 DFS">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N217存在重复元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N219存在重复元素II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -394,14 +395,7 @@
       <workItem from="1619398586564" duration="9510000" />
       <workItem from="1619418162358" duration="11119000" />
       <workItem from="1619431560172" duration="58000" />
-      <workItem from="1619484417634" duration="1412000" />
-    </task>
-    <task id="LOCAL-00036" summary="20210124 双周赛44">
-      <created>1611461670184</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1611461670184</updated>
+      <workItem from="1619484417634" duration="2176000" />
     </task>
     <task id="LOCAL-00037" summary="20210126 签到">
       <created>1611673496748</created>
@@ -739,7 +733,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619431579251</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="N938二叉搜索树的范围和 DFS">
+      <created>1619485858354</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1619485858355</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +759,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2021022126 牛客练习赛77" />
     <MESSAGE value="202102212728 签到" />
     <MESSAGE value="20210301 签到" />
     <MESSAGE value="20210302 签到" />
@@ -783,7 +783,8 @@
     <MESSAGE value="N202快乐数 set去重" />
     <MESSAGE value="N203移除链表元素 哨兵结点" />
     <MESSAGE value="N204计数质数 筛素数" />
-    <option name="LAST_COMMIT_MESSAGE" value="N204计数质数 筛素数" />
+    <MESSAGE value="N938二叉搜索树的范围和 DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="N938二叉搜索树的范围和 DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
