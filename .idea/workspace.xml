@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N225用队列实现栈">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N2312的幂.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N2312的幂 位运算">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N235二叉搜索树的最近公共祖先.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N633平方数之和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -394,14 +395,8 @@
       <workItem from="1619398586564" duration="9510000" />
       <workItem from="1619418162358" duration="11119000" />
       <workItem from="1619431560172" duration="58000" />
-      <workItem from="1619484417634" duration="5547000" />
-    </task>
-    <task id="LOCAL-00039" summary="20210128 签到">
-      <created>1611803407466</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1611803407466</updated>
+      <workItem from="1619484417634" duration="9759000" />
+      <workItem from="1619657482819" duration="1659000" />
     </task>
     <task id="LOCAL-00040" summary="20210128 最小生成树kruskal和prim">
       <created>1611845053726</created>
@@ -739,7 +734,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619487957933</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="N2312的幂 位运算">
+      <created>1619491027934</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1619491027934</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,7 +760,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210302 签到" />
     <MESSAGE value="20210303 签到" />
     <MESSAGE value="20210304 签到" />
     <MESSAGE value="20210305 签到" />
@@ -783,7 +784,8 @@
     <MESSAGE value="N938二叉搜索树的范围和 DFS" />
     <MESSAGE value="N217 219 重复元素" />
     <MESSAGE value="N225用队列实现栈" />
-    <option name="LAST_COMMIT_MESSAGE" value="N225用队列实现栈" />
+    <MESSAGE value="N2312的幂 位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="N2312的幂 位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
