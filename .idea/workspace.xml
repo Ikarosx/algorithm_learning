@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N235二叉搜索树的最近公共祖先 递归">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N137只出现一次的数字II.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N137只出现一次的数字II 位运算">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N257二叉树的所有路径.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -114,7 +114,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -130,35 +130,14 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N204计数质数.test">
-    <configuration name="N168Excel表列名称.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n100.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N168Excel表列名称" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N190颠倒二进制位.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n100.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N190颠倒二进制位" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.N257二叉树的所有路径">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -195,6 +174,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N257二叉树的所有路径" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n200.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N257二叉树的所有路径" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N257二叉树的所有路径.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n200.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N257二叉树的所有路径" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N91解码方法.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -213,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N257二叉树的所有路径" />
+        <item itemvalue="JUnit.N257二叉树的所有路径.test" />
+        <item itemvalue="JUnit.N91解码方法.test" />
         <item itemvalue="JUnit.N204计数质数.test" />
         <item itemvalue="JUnit.N202快乐数.test" />
-        <item itemvalue="JUnit.N190颠倒二进制位.test" />
-        <item itemvalue="JUnit.N168Excel表列名称.test" />
-        <item itemvalue="JUnit.N91解码方法.test" />
       </list>
     </recent_temporary>
   </component>
@@ -396,14 +406,10 @@
       <workItem from="1619431560172" duration="58000" />
       <workItem from="1619484417634" duration="9759000" />
       <workItem from="1619657482819" duration="5633000" />
-      <workItem from="1619744299545" duration="1578000" />
-    </task>
-    <task id="LOCAL-00044" summary="20210202 签到">
-      <created>1612280241918</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1612280241918</updated>
+      <workItem from="1619744299545" duration="1660000" />
+      <workItem from="1619771524506" duration="610000" />
+      <workItem from="1619775387938" duration="610000" />
+      <workItem from="1620089227147" duration="3350000" />
     </task>
     <task id="LOCAL-00045" summary="20210203-06 签到">
       <created>1612584908581</created>
@@ -741,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619670170993</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="N137只出现一次的数字II 位运算">
+      <created>1619746068729</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1619746068730</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -760,7 +773,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210307 签到" />
     <MESSAGE value="20210319 签到" />
     <MESSAGE value="20210320 签到" />
     <MESSAGE value="20210321 签到" />
@@ -785,7 +797,8 @@
     <MESSAGE value="N237删除链表中的节点 &#10;如何让自己在世界上消失，但又不死？ —— 将自己完全变成另一个人，再杀了那个人就行了。&#10;https://leetcode-cn.com/problems/delete-node-in-a-linked-list/comments/373874" />
     <MESSAGE value="N242有效的字母异位词 Hash 排序" />
     <MESSAGE value="N235二叉搜索树的最近公共祖先 递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="N235二叉搜索树的最近公共祖先 递归" />
+    <MESSAGE value="N137只出现一次的数字II 位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="N137只出现一次的数字II 位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
