@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N257二叉树的所有路径 回溯">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N258各位相加.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N258各位相加 数学理解">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N198打家劫舍.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N213打家劫舍II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,35 +131,37 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N257二叉树的所有路径">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N213打家劫舍II.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N202快乐数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N198打家劫舍.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.序号.n200.*" />
+          <option name="PATTERN" value="leetcode.序号.n100.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N202快乐数" />
+      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N198打家劫舍" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N204计数质数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N213打家劫舍II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
         <pattern>
@@ -167,7 +170,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N204计数质数" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N213打家劫舍II" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -223,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N213打家劫舍II.test" />
+        <item itemvalue="JUnit.N198打家劫舍.test" />
         <item itemvalue="JUnit.N257二叉树的所有路径" />
         <item itemvalue="JUnit.N257二叉树的所有路径.test" />
         <item itemvalue="JUnit.N91解码方法.test" />
-        <item itemvalue="JUnit.N204计数质数.test" />
-        <item itemvalue="JUnit.N202快乐数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -409,14 +412,8 @@
       <workItem from="1619744299545" duration="1660000" />
       <workItem from="1619771524506" duration="610000" />
       <workItem from="1619775387938" duration="610000" />
-      <workItem from="1620089227147" duration="3997000" />
-    </task>
-    <task id="LOCAL-00046" summary="2021020708 签到 + leetcode周赛227">
-      <created>1612747641085</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1612747641086</updated>
+      <workItem from="1620089227147" duration="4754000" />
+      <workItem from="1620176508237" duration="3187000" />
     </task>
     <task id="LOCAL-00047" summary="20210209 签到">
       <created>1612881130385</created>
@@ -754,7 +751,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620118675903</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="N258各位相加 数学理解">
+      <created>1620119454006</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1620119454006</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -773,7 +777,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210320 签到" />
     <MESSAGE value="20210321 签到" />
     <MESSAGE value="20210322 签到" />
     <MESSAGE value="202104" />
@@ -798,7 +801,8 @@
     <MESSAGE value="N235二叉搜索树的最近公共祖先 递归" />
     <MESSAGE value="N137只出现一次的数字II 位运算" />
     <MESSAGE value="N257二叉树的所有路径 回溯" />
-    <option name="LAST_COMMIT_MESSAGE" value="N257二叉树的所有路径 回溯" />
+    <MESSAGE value="N258各位相加 数学理解" />
+    <option name="LAST_COMMIT_MESSAGE" value="N258各位相加 数学理解" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -850,6 +854,9 @@
     <SUITE FILE_PATH="coverage/algorithm_learning$Test2.ic" NAME="Test2 Coverage Results" MODIFIED="1611159622837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/algorithm_learning$N58I_test.ic" NAME="N58I翻转单词顺序.test Coverage Results" MODIFIED="1599710911982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>leetcode.剑指offer.N61_.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/algorithm_learning$N198_test.ic" NAME="N198打家劫舍.test Coverage Results" MODIFIED="1620176969234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>leetcode.序号.n100.*</FILTER>
     </SUITE>
   </component>
 </project>
