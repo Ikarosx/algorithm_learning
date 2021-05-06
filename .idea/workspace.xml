@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N258各位相加 数学理解">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N198打家劫舍.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N213打家劫舍II.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N198 N213 打家劫舍 DP">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1700/N1720解码异或后的数组.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="introduce.parameter.lambda" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/yongyuan-system-manage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,15 +131,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N213打家劫舍II.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -413,14 +410,8 @@
       <workItem from="1619771524506" duration="610000" />
       <workItem from="1619775387938" duration="610000" />
       <workItem from="1620089227147" duration="4754000" />
-      <workItem from="1620176508237" duration="3187000" />
-    </task>
-    <task id="LOCAL-00047" summary="20210209 签到">
-      <created>1612881130385</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1612881130385</updated>
+      <workItem from="1620176508237" duration="5418000" />
+      <workItem from="1620262154494" duration="233000" />
     </task>
     <task id="LOCAL-00048" summary="20210210 签到">
       <created>1612920949672</created>
@@ -758,7 +749,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620119454006</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="N198 N213 打家劫舍 DP">
+      <created>1620179801038</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1620179801038</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -777,7 +775,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210321 签到" />
     <MESSAGE value="20210322 签到" />
     <MESSAGE value="202104" />
     <MESSAGE value="20210414 爱客科技 编程猫" />
@@ -802,7 +799,8 @@
     <MESSAGE value="N137只出现一次的数字II 位运算" />
     <MESSAGE value="N257二叉树的所有路径 回溯" />
     <MESSAGE value="N258各位相加 数学理解" />
-    <option name="LAST_COMMIT_MESSAGE" value="N258各位相加 数学理解" />
+    <MESSAGE value="N198 N213 打家劫舍 DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="N198 N213 打家劫舍 DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
