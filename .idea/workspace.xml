@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1720解码异或后的数组 位运算">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n700/N740删除并获得点数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N740删除并获得点数 DP">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1400/N1486数组异或操作.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,17 +131,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N213打家劫舍II.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N198打家劫舍.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -411,14 +400,8 @@
       <workItem from="1619775387938" duration="610000" />
       <workItem from="1620089227147" duration="4754000" />
       <workItem from="1620176508237" duration="5418000" />
-      <workItem from="1620262154494" duration="1367000" />
-    </task>
-    <task id="LOCAL-00049" summary="新年签到">
-      <created>1613006824639</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1613006824639</updated>
+      <workItem from="1620262154494" duration="1435000" />
+      <workItem from="1620361813243" duration="883000" />
     </task>
     <task id="LOCAL-00050" summary="新年签到">
       <created>1613201132923</created>
@@ -756,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620262411538</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="N740删除并获得点数 DP">
+      <created>1620263558434</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1620263558434</updated>
+    </task>
+    <option name="localTasksCounter" value="99" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -775,7 +765,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="202104" />
     <MESSAGE value="20210414 爱客科技 编程猫" />
     <MESSAGE value="20210423 解码方法" />
     <MESSAGE value="N168 进制转换" />
@@ -800,7 +789,8 @@
     <MESSAGE value="N258各位相加 数学理解" />
     <MESSAGE value="N198 N213 打家劫舍 DP" />
     <MESSAGE value="N1720解码异或后的数组 位运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="N1720解码异或后的数组 位运算" />
+    <MESSAGE value="N740删除并获得点数 DP" />
+    <option name="LAST_COMMIT_MESSAGE" value="N740删除并获得点数 DP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
