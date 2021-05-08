@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N268丢失的数字 位运算">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N278第一个错误的版本.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N278第一个错误的版本 二分查找">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N290单词规律.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="introduce.parameter.lambda" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/yongyuan-system-manage" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../zuihou-crm/zuihou-cloud-plus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -414,14 +414,7 @@
       <workItem from="1620089227147" duration="4754000" />
       <workItem from="1620176508237" duration="5418000" />
       <workItem from="1620262154494" duration="1435000" />
-      <workItem from="1620361813243" duration="6062000" />
-    </task>
-    <task id="LOCAL-00053" summary="20210217 签到">
-      <created>1613526515781</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1613526515781</updated>
+      <workItem from="1620361813243" duration="8044000" />
     </task>
     <task id="LOCAL-00054" summary="20210218 签到">
       <created>1613627488356</created>
@@ -759,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620438802947</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="N278第一个错误的版本 二分查找">
+      <created>1620439630173</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1620439630173</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +778,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N168Excel表列名称 进制转换" />
     <MESSAGE value="N190颠倒二进制位 位运算" />
     <MESSAGE value="N193有效电话号码 shell 正则表达式" />
     <MESSAGE value="N195第十行 shell" />
@@ -803,7 +802,8 @@
     <MESSAGE value="N1486数组异或操作 数学" />
     <MESSAGE value="N263丑数 数学" />
     <MESSAGE value="N268丢失的数字 位运算" />
-    <option name="LAST_COMMIT_MESSAGE" value="N268丢失的数字 位运算" />
+    <MESSAGE value="N278第一个错误的版本 二分查找" />
+    <option name="LAST_COMMIT_MESSAGE" value="N278第一个错误的版本 二分查找" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
