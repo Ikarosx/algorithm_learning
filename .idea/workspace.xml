@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1486数组异或操作 数学">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N263丑数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N263丑数 数学">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N268丢失的数字.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,14 +414,7 @@
       <workItem from="1620089227147" duration="4754000" />
       <workItem from="1620176508237" duration="5418000" />
       <workItem from="1620262154494" duration="1435000" />
-      <workItem from="1620361813243" duration="4098000" />
-    </task>
-    <task id="LOCAL-00051" summary="N5675">
-      <created>1613217420247</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1613217420247</updated>
+      <workItem from="1620361813243" duration="5383000" />
     </task>
     <task id="LOCAL-00052" summary="20210215/16 签到">
       <created>1613438697293</created>
@@ -759,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620362705731</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="N263丑数 数学">
+      <created>1620437518459</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1620437518459</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +778,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="20210423 解码方法" />
     <MESSAGE value="N168 进制转换" />
     <MESSAGE value="N168Excel表列名称 进制转换" />
     <MESSAGE value="N190颠倒二进制位 位运算" />
@@ -803,7 +802,8 @@
     <MESSAGE value="N1720解码异或后的数组 位运算" />
     <MESSAGE value="N740删除并获得点数 DP" />
     <MESSAGE value="N1486数组异或操作 数学" />
-    <option name="LAST_COMMIT_MESSAGE" value="N1486数组异或操作 数学" />
+    <MESSAGE value="N263丑数 数学" />
+    <option name="LAST_COMMIT_MESSAGE" value="N263丑数 数学" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
