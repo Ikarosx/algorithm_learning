@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N278第一个错误的版本 二分查找">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n200/N290单词规律.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N290单词规律 哈希">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n900/N993二叉树的堂兄弟节点.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,16 +130,14 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N263丑数.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N993二叉树的堂兄弟节点.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,22 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N257二叉树的所有路径.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n200.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N257二叉树的所有路径" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N263丑数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -223,13 +205,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N993二叉树的堂兄弟节点.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n900.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n900" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n900.N993二叉树的堂兄弟节点" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N993二叉树的堂兄弟节点.test" />
         <item itemvalue="JUnit.N263丑数.test" />
         <item itemvalue="JUnit.N213打家劫舍II.test" />
         <item itemvalue="JUnit.N198打家劫舍.test" />
         <item itemvalue="JUnit.N257二叉树的所有路径" />
-        <item itemvalue="JUnit.N257二叉树的所有路径.test" />
       </list>
     </recent_temporary>
   </component>
@@ -414,14 +412,9 @@
       <workItem from="1620089227147" duration="4754000" />
       <workItem from="1620176508237" duration="5418000" />
       <workItem from="1620262154494" duration="1435000" />
-      <workItem from="1620361813243" duration="8044000" />
-    </task>
-    <task id="LOCAL-00054" summary="20210218 签到">
-      <created>1613627488356</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1613627488356</updated>
+      <workItem from="1620361813243" duration="10489000" />
+      <workItem from="1620694304804" duration="1216000" />
+      <workItem from="1621212316653" duration="1986000" />
     </task>
     <task id="LOCAL-00055" summary="20210219 签到">
       <created>1613714687356</created>
@@ -759,7 +752,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620439630173</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="N290单词规律 哈希">
+      <created>1620441645244</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1620441645244</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -778,7 +778,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N190颠倒二进制位 位运算" />
     <MESSAGE value="N193有效电话号码 shell 正则表达式" />
     <MESSAGE value="N195第十行 shell" />
     <MESSAGE value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
@@ -803,7 +802,8 @@
     <MESSAGE value="N263丑数 数学" />
     <MESSAGE value="N268丢失的数字 位运算" />
     <MESSAGE value="N278第一个错误的版本 二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="N278第一个错误的版本 二分查找" />
+    <MESSAGE value="N290单词规律 哈希" />
+    <option name="LAST_COMMIT_MESSAGE" value="N290单词规律 哈希" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
