@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N993二叉树的堂兄弟节点 递归">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1400/N1442形成两个异或相等数组的三元组数目.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1442形成两个异或相等数组的三元组数目 异或">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1700/N1738找出第K大的异或坐标值.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,17 +131,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N1442形成两个异或相等数组的三元组数目.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N1442形成两个异或相等数组的三元组数目.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -415,14 +404,8 @@
       <workItem from="1620262154494" duration="1435000" />
       <workItem from="1620361813243" duration="10489000" />
       <workItem from="1620694304804" duration="1216000" />
-      <workItem from="1621212316653" duration="4987000" />
-    </task>
-    <task id="LOCAL-00056" summary="20210220 签到">
-      <created>1613800468766</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1613800468767</updated>
+      <workItem from="1621212316653" duration="5011000" />
+      <workItem from="1621385236244" duration="1585000" />
     </task>
     <task id="LOCAL-00057" summary="2021022122 签到">
       <created>1613960665624</created>
@@ -760,7 +743,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621214324775</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="N1442形成两个异或相等数组的三元组数目 异或">
+      <created>1621301561537</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1621301561537</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -779,7 +769,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N196删除重复的电子邮箱 JOIN vs SUB QUERY" />
     <MESSAGE value="N202快乐数 set去重" />
     <MESSAGE value="N203移除链表元素 哨兵结点" />
     <MESSAGE value="N204计数质数 筛素数" />
@@ -804,7 +793,8 @@
     <MESSAGE value="N290单词规律 哈希" />
     <MESSAGE value="N993二叉树的堂兄弟节点 d递归" />
     <MESSAGE value="N993二叉树的堂兄弟节点 递归" />
-    <option name="LAST_COMMIT_MESSAGE" value="N993二叉树的堂兄弟节点 递归" />
+    <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
+    <option name="LAST_COMMIT_MESSAGE" value="N1442形成两个异或相等数组的三元组数目 异或" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
