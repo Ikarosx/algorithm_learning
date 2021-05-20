@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1442形成两个异或相等数组的三元组数目 异或">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n1700/N1738找出第K大的异或坐标值.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1738找出第K大的异或坐标值 异或 二维前缀和">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N692前K个高频单词.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,18 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N1442形成两个异或相等数组的三元组数目.test">
+  <component name="RunManager" selected="JUnit.N692前K个高频单词.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N1442形成两个异或相等数组的三元组数目.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -141,22 +152,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="leetcode.序号.n1400" />
       <option name="MAIN_CLASS_NAME" value="leetcode.序号.n1400.N1442形成两个异或相等数组的三元组数目" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N198打家劫舍.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n100.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n100" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n100.N198打家劫舍" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -195,6 +190,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N692前K个高频单词.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n600.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n600" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n600.N692前K个高频单词" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N993二叉树的堂兄弟节点.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -213,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N692前K个高频单词.test" />
         <item itemvalue="JUnit.N1442形成两个异或相等数组的三元组数目.test" />
         <item itemvalue="JUnit.N993二叉树的堂兄弟节点.test" />
         <item itemvalue="JUnit.N263丑数.test" />
         <item itemvalue="JUnit.N213打家劫舍II.test" />
-        <item itemvalue="JUnit.N198打家劫舍.test" />
       </list>
     </recent_temporary>
   </component>
@@ -405,14 +416,8 @@
       <workItem from="1620361813243" duration="10489000" />
       <workItem from="1620694304804" duration="1216000" />
       <workItem from="1621212316653" duration="5011000" />
-      <workItem from="1621385236244" duration="1585000" />
-    </task>
-    <task id="LOCAL-00057" summary="2021022122 签到">
-      <created>1613960665624</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1613960665625</updated>
+      <workItem from="1621385236244" duration="1607000" />
+      <workItem from="1621494103239" duration="4708000" />
     </task>
     <task id="LOCAL-00058" summary="2021022123 签到">
       <created>1614048840678</created>
@@ -750,7 +755,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621301561537</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="N1738找出第K大的异或坐标值 异或 二维前缀和">
+      <created>1621386833962</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1621386833962</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -769,7 +781,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N202快乐数 set去重" />
     <MESSAGE value="N203移除链表元素 哨兵结点" />
     <MESSAGE value="N204计数质数 筛素数" />
     <MESSAGE value="N938二叉搜索树的范围和 DFS" />
@@ -794,7 +805,8 @@
     <MESSAGE value="N993二叉树的堂兄弟节点 d递归" />
     <MESSAGE value="N993二叉树的堂兄弟节点 递归" />
     <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
-    <option name="LAST_COMMIT_MESSAGE" value="N1442形成两个异或相等数组的三元组数目 异或" />
+    <MESSAGE value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
+    <option name="LAST_COMMIT_MESSAGE" value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
