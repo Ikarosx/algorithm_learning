@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N1738找出第K大的异或坐标值 异或 二维前缀和">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N692前K个高频单词.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N692前K个高频单词 map + 堆">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N461汉明距离.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N692前K个高频单词.test">
+  <component name="RunManager" selected="JUnit.N461汉明距离.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,6 +138,38 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N1035不相交的线.forTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n1000.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n1000" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n1000.N1035不相交的线" />
+      <option name="METHOD_NAME" value="forTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N1035不相交的线.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n1000.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n1000" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n1000.N1035不相交的线" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,32 +190,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N213打家劫舍II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="N461汉明距离.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.序号.n200.*" />
+          <option name="PATTERN" value="leetcode.序号.n400.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N213打家劫舍II" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N263丑数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n200.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n200" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n200.N263丑数" />
+      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N461汉明距离" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -206,29 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N993二叉树的堂兄弟节点.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n900.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n900" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n900.N993二叉树的堂兄弟节点" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N461汉明距离.test" />
+        <item itemvalue="JUnit.N1035不相交的线.forTest" />
+        <item itemvalue="JUnit.N1035不相交的线.test" />
         <item itemvalue="JUnit.N692前K个高频单词.test" />
         <item itemvalue="JUnit.N1442形成两个异或相等数组的三元组数目.test" />
-        <item itemvalue="JUnit.N993二叉树的堂兄弟节点.test" />
-        <item itemvalue="JUnit.N263丑数.test" />
-        <item itemvalue="JUnit.N213打家劫舍II.test" />
       </list>
     </recent_temporary>
   </component>
@@ -417,14 +417,9 @@
       <workItem from="1620694304804" duration="1216000" />
       <workItem from="1621212316653" duration="5011000" />
       <workItem from="1621385236244" duration="1607000" />
-      <workItem from="1621494103239" duration="4708000" />
-    </task>
-    <task id="LOCAL-00058" summary="2021022123 签到">
-      <created>1614048840678</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1614048840678</updated>
+      <workItem from="1621494103239" duration="4882000" />
+      <workItem from="1621558028861" duration="5046000" />
+      <workItem from="1622162493322" duration="1774000" />
     </task>
     <task id="LOCAL-00059" summary="202102212425 签到">
       <created>1614230170471</created>
@@ -762,7 +757,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621386833962</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="N692前K个高频单词 map + 堆">
+      <created>1621498984999</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1621498985000</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,7 +783,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N203移除链表元素 哨兵结点" />
     <MESSAGE value="N204计数质数 筛素数" />
     <MESSAGE value="N938二叉搜索树的范围和 DFS" />
     <MESSAGE value="N217 219 重复元素" />
@@ -806,7 +807,8 @@
     <MESSAGE value="N993二叉树的堂兄弟节点 递归" />
     <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
     <MESSAGE value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
-    <option name="LAST_COMMIT_MESSAGE" value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
+    <MESSAGE value="N692前K个高频单词 map + 堆" />
+    <option name="LAST_COMMIT_MESSAGE" value="N692前K个高频单词 map + 堆" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
