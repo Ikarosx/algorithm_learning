@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N692前K个高频单词 map + 堆">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N461汉明距离.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="N461汉明距离 位运算">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n100/N160相交链表.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,17 +131,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N461汉明距离.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N1035不相交的线.forTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -419,14 +408,8 @@
       <workItem from="1621385236244" duration="1607000" />
       <workItem from="1621494103239" duration="4882000" />
       <workItem from="1621558028861" duration="5046000" />
-      <workItem from="1622162493322" duration="1774000" />
-    </task>
-    <task id="LOCAL-00059" summary="202102212425 签到">
-      <created>1614230170471</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1614230170471</updated>
+      <workItem from="1622162493322" duration="5415000" />
+      <workItem from="1622767442684" duration="1412000" />
     </task>
     <task id="LOCAL-00060" summary="2021022126 签到">
       <created>1614300828634</created>
@@ -764,7 +747,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621498985000</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="N461汉明距离 位运算">
+      <created>1622176886623</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1622176886623</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -783,7 +773,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N204计数质数 筛素数" />
     <MESSAGE value="N938二叉搜索树的范围和 DFS" />
     <MESSAGE value="N217 219 重复元素" />
     <MESSAGE value="N225用队列实现栈" />
@@ -808,7 +797,8 @@
     <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
     <MESSAGE value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
     <MESSAGE value="N692前K个高频单词 map + 堆" />
-    <option name="LAST_COMMIT_MESSAGE" value="N692前K个高频单词 map + 堆" />
+    <MESSAGE value="N461汉明距离 位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="N461汉明距离 位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
