@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N367有效的完全平方数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N374猜数字大小.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,17 +131,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N367有效的完全平方数.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N1035不相交的线.forTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -428,14 +417,8 @@
       <workItem from="1623891613422" duration="1325000" />
       <workItem from="1623904540998" duration="1610000" />
       <workItem from="1624250921299" duration="7111000" />
-      <workItem from="1624844043556" duration="3054000" />
-    </task>
-    <task id="LOCAL-00065" summary="20210303 签到">
-      <created>1614767816064</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1614767816065</updated>
+      <workItem from="1624844043556" duration="3101000" />
+      <workItem from="1624863647449" duration="1008000" />
     </task>
     <task id="LOCAL-00066" summary="20210304 签到">
       <created>1614826729005</created>
@@ -773,7 +756,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624256915204</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代">
+      <created>1624859288077</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1624859288078</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +782,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N237删除链表中的节点 &#10;如何让自己在世界上消失，但又不死？ —— 将自己完全变成另一个人，再杀了那个人就行了。&#10;https://leetcode-cn.com/problems/delete-node-in-a-linked-list/comments/373874" />
     <MESSAGE value="N242有效的字母异位词 Hash 排序" />
     <MESSAGE value="N235二叉搜索树的最近公共祖先 递归" />
     <MESSAGE value="N137只出现一次的数字II 位运算" />
@@ -817,7 +806,8 @@
     <MESSAGE value="feat(leetcode): N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
     <MESSAGE value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
+    <MESSAGE value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
