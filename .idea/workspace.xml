@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N345反转字符串中的元音字母 双指针">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N349两个数组的交集.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N350两个数组的交集II.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N367有效的完全平方数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,18 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N344反转字符串.test">
+  <component name="RunManager" selected="JUnit.N367有效的完全平方数.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N1035不相交的线.forTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -180,6 +190,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N367有效的完全平方数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n300.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n300" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n300.N367有效的完全平方数" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N461汉明距离.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -196,29 +222,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="N692前K个高频单词.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n600.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n600" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n600.N692前K个高频单词" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N367有效的完全平方数.test" />
         <item itemvalue="JUnit.N344反转字符串.test" />
         <item itemvalue="JUnit.N461汉明距离.test" />
         <item itemvalue="JUnit.N1035不相交的线.forTest" />
         <item itemvalue="JUnit.N1035不相交的线.test" />
-        <item itemvalue="JUnit.N692前K个高频单词.test" />
       </list>
     </recent_temporary>
   </component>
@@ -417,14 +427,8 @@
       <workItem from="1623826771633" duration="58000" />
       <workItem from="1623891613422" duration="1325000" />
       <workItem from="1623904540998" duration="1610000" />
-      <workItem from="1624250921299" duration="4284000" />
-    </task>
-    <task id="LOCAL-00064" summary="20210302 签到">
-      <created>1614688445715</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1614688445715</updated>
+      <workItem from="1624250921299" duration="7111000" />
+      <workItem from="1624844043556" duration="3054000" />
     </task>
     <task id="LOCAL-00065" summary="20210303 签到">
       <created>1614767816064</created>
@@ -762,7 +766,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623905521175</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针">
+      <created>1624256915204</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1624256915204</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -781,7 +792,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N633平方数之和 sqrt，双指针，费马平方和定理" />
     <MESSAGE value="N237删除链表中的节点 &#10;如何让自己在世界上消失，但又不死？ —— 将自己完全变成另一个人，再杀了那个人就行了。&#10;https://leetcode-cn.com/problems/delete-node-in-a-linked-list/comments/373874" />
     <MESSAGE value="N242有效的字母异位词 Hash 排序" />
     <MESSAGE value="N235二叉搜索树的最近公共祖先 递归" />
@@ -806,7 +816,8 @@
     <MESSAGE value="N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
+    <MESSAGE value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
