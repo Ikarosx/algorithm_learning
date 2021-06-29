@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N374猜数字大小.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N374猜数字大小 二分法">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n300/N383赎金信.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,18 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N367有效的完全平方数.test">
+  <component name="RunManager" selected="JUnit.N383赎金信.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N1035不相交的线.forTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -142,22 +153,6 @@
       <option name="PACKAGE_NAME" value="leetcode.序号.n1000" />
       <option name="MAIN_CLASS_NAME" value="leetcode.序号.n1000.N1035不相交的线" />
       <option name="METHOD_NAME" value="forTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N1035不相交的线.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n1000.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n1000" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n1000.N1035不相交的线" />
-      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,6 +190,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N383赎金信.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n300.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n300" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n300.N383赎金信" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="N461汉明距离.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -213,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N383赎金信.test" />
         <item itemvalue="JUnit.N367有效的完全平方数.test" />
         <item itemvalue="JUnit.N344反转字符串.test" />
         <item itemvalue="JUnit.N461汉明距离.test" />
         <item itemvalue="JUnit.N1035不相交的线.forTest" />
-        <item itemvalue="JUnit.N1035不相交的线.test" />
       </list>
     </recent_temporary>
   </component>
@@ -418,14 +429,8 @@
       <workItem from="1623904540998" duration="1610000" />
       <workItem from="1624250921299" duration="7111000" />
       <workItem from="1624844043556" duration="3101000" />
-      <workItem from="1624863647449" duration="1008000" />
-    </task>
-    <task id="LOCAL-00066" summary="20210304 签到">
-      <created>1614826729005</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1614826729006</updated>
+      <workItem from="1624863647449" duration="2320000" />
+      <workItem from="1624928809346" duration="614000" />
     </task>
     <task id="LOCAL-00067" summary="20210305 签到">
       <created>1614949757551</created>
@@ -763,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624859288078</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="feat(leetcode): N374猜数字大小 二分法">
+      <created>1624865851503</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1624865851504</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -782,7 +794,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N242有效的字母异位词 Hash 排序" />
     <MESSAGE value="N235二叉搜索树的最近公共祖先 递归" />
     <MESSAGE value="N137只出现一次的数字II 位运算" />
     <MESSAGE value="N257二叉树的所有路径 回溯" />
@@ -807,7 +818,8 @@
     <MESSAGE value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
     <MESSAGE value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
     <MESSAGE value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
+    <MESSAGE value="feat(leetcode): N374猜数字大小 二分法" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N374猜数字大小 二分法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
