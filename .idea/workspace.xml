@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N392判断子序列 双指针、DP">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N401二进制手表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N404左叶子之和.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N404左叶子之和 DFS、BFS">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N409最长回文串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +100,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="introduce.parameter.lambda" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhongyi/JavaBackstage" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -131,7 +130,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="JUnit.N409最长回文串.test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leetcode.Test" />
       <module name="algorithm_learning1" />
@@ -145,29 +144,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N367有效的完全平方数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n300.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n300" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n300.N367有效的完全平方数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,13 +205,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N409最长回文串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n400.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N409最长回文串" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N409最长回文串.test" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.N392判断子序列.test" />
         <item itemvalue="JUnit.N389找不同.test" />
         <item itemvalue="JUnit.N383赎金信.test" />
-        <item itemvalue="JUnit.N367有效的完全平方数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -428,14 +429,8 @@
       <workItem from="1624250921299" duration="7111000" />
       <workItem from="1624844043556" duration="3101000" />
       <workItem from="1624863647449" duration="2320000" />
-      <workItem from="1624928809346" duration="10780000" />
-    </task>
-    <task id="LOCAL-00070" summary="20210319 签到">
-      <created>1616117206609</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1616117206609</updated>
+      <workItem from="1624928809346" duration="15214000" />
+      <workItem from="1625187605995" duration="1739000" />
     </task>
     <task id="LOCAL-00071" summary="20210320 签到">
       <created>1616171617560</created>
@@ -773,7 +768,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624932031524</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="feat(leetcode): N404左叶子之和 DFS、BFS">
+      <created>1625027077270</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1625027077270</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -792,7 +794,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N258各位相加 数学理解" />
     <MESSAGE value="N198 N213 打家劫舍 DP" />
     <MESSAGE value="N1720解码异或后的数组 位运算" />
     <MESSAGE value="N740删除并获得点数 DP" />
@@ -817,7 +818,8 @@
     <MESSAGE value="feat(leetcode): N383赎金信 桶排序" />
     <MESSAGE value="feat(leetcode): N389找不同 异或、求和" />
     <MESSAGE value="feat(leetcode): N392判断子序列 双指针、DP" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N392判断子序列 双指针、DP" />
+    <MESSAGE value="feat(leetcode): N404左叶子之和 DFS、BFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N404左叶子之和 DFS、BFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
