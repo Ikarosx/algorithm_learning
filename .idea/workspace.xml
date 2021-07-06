@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N412FizzBuzz 模拟">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N434字符串中的单词数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N434字符串中的单词数">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N441排列硬币.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,20 +130,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N434字符串中的单词数.test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leetcode.Test" />
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.N441排列硬币.test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -221,13 +208,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N441排列硬币.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n400.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N441排列硬币" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N441排列硬币.test" />
         <item itemvalue="JUnit.N434字符串中的单词数.test" />
         <item itemvalue="JUnit.N414第三大的数.test" />
         <item itemvalue="JUnit.N412FizzBuzz.test" />
         <item itemvalue="JUnit.N409最长回文串.test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -432,14 +435,7 @@
       <workItem from="1624928809346" duration="15214000" />
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
-      <workItem from="1625533137625" duration="71000" />
-    </task>
-    <task id="LOCAL-00073" summary="20210322 签到">
-      <created>1616398712971</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1616398712971</updated>
+      <workItem from="1625533137625" duration="2794000" />
     </task>
     <task id="LOCAL-00074" summary="202104">
       <created>1618155210388</created>
@@ -777,7 +773,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625190336039</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="feat(leetcode): N434字符串中的单词数">
+      <created>1625533423326</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1625533423327</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -796,7 +799,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N740删除并获得点数 DP" />
     <MESSAGE value="N1486数组异或操作 数学" />
     <MESSAGE value="N263丑数 数学" />
     <MESSAGE value="N268丢失的数字 位运算" />
@@ -821,7 +823,8 @@
     <MESSAGE value="feat(leetcode): N404左叶子之和 DFS、BFS" />
     <MESSAGE value="feat(leetcode): N409最长回文串 hashMap" />
     <MESSAGE value="feat(leetcode): N412FizzBuzz 模拟" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N412FizzBuzz 模拟" />
+    <MESSAGE value="feat(leetcode): N434字符串中的单词数" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N434字符串中的单词数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
