@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N434字符串中的单词数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N441排列硬币.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N441排列硬币 二分">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N572另一个树的子树.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,15 +131,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N441排列硬币.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -435,14 +433,8 @@
       <workItem from="1624928809346" duration="15214000" />
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
-      <workItem from="1625533137625" duration="2794000" />
-    </task>
-    <task id="LOCAL-00074" summary="202104">
-      <created>1618155210388</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1618155210389</updated>
+      <workItem from="1625533137625" duration="3475000" />
+      <workItem from="1625627114114" duration="1764000" />
     </task>
     <task id="LOCAL-00075" summary="20210414 爱客科技 编程猫">
       <created>1618371998795</created>
@@ -780,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625533423327</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="feat(leetcode): N441排列硬币 二分">
+      <created>1625536194179</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1625536194179</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -799,7 +798,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N1486数组异或操作 数学" />
     <MESSAGE value="N263丑数 数学" />
     <MESSAGE value="N268丢失的数字 位运算" />
     <MESSAGE value="N278第一个错误的版本 二分查找" />
@@ -824,7 +822,8 @@
     <MESSAGE value="feat(leetcode): N409最长回文串 hashMap" />
     <MESSAGE value="feat(leetcode): N412FizzBuzz 模拟" />
     <MESSAGE value="feat(leetcode): N434字符串中的单词数" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N434字符串中的单词数" />
+    <MESSAGE value="feat(leetcode): N441排列硬币 二分" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N441排列硬币 二分" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
