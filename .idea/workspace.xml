@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N463岛屿的周长 模拟DFS">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N476数字的补数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N476数字的补数 位运算 异或">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N482密钥格式化.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +130,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N476数字的补数.test">
+  <component name="RunManager" selected="JUnit.N482密钥格式化.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -138,22 +138,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N434字符串中的单词数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N434字符串中的单词数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,13 +206,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N482密钥格式化.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n400.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N482密钥格式化" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N482密钥格式化.test" />
         <item itemvalue="JUnit.N476数字的补数.test" />
         <item itemvalue="JUnit.N463岛屿的周长.test" />
         <item itemvalue="JUnit.N459重复的子字符串.test" />
         <item itemvalue="JUnit.N441排列硬币.test" />
-        <item itemvalue="JUnit.N434字符串中的单词数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -434,14 +434,7 @@
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
       <workItem from="1625533137625" duration="3475000" />
-      <workItem from="1625627114114" duration="10310000" />
-    </task>
-    <task id="LOCAL-00080" summary="N195第十行 shell">
-      <created>1619416426693</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1619416426693</updated>
+      <workItem from="1625627114114" duration="11893000" />
     </task>
     <task id="LOCAL-00081" summary="N196删除重复的电子邮箱 JOIN vs SUB QUERY">
       <created>1619417705367</created>
@@ -779,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625712868074</updated>
     </task>
-    <option name="localTasksCounter" value="129" />
+    <task id="LOCAL-00129" summary="feat(leetcode): N476数字的补数 位运算 异或">
+      <created>1625714242109</created>
+      <option name="number" value="00129" />
+      <option name="presentableId" value="LOCAL-00129" />
+      <option name="project" value="LOCAL" />
+      <updated>1625714242109</updated>
+    </task>
+    <option name="localTasksCounter" value="130" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +798,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N993二叉树的堂兄弟节点 递归" />
     <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
     <MESSAGE value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
     <MESSAGE value="N692前K个高频单词 map + 堆" />
@@ -823,7 +822,8 @@
     <MESSAGE value="feat(leetcode): N530二叉搜索树的最小绝对差 中序遍历" />
     <MESSAGE value="feat(leetcode): N459重复的子字符串 KMP、数学" />
     <MESSAGE value="feat(leetcode): N463岛屿的周长 模拟DFS" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N463岛屿的周长 模拟DFS" />
+    <MESSAGE value="feat(leetcode): N476数字的补数 位运算 异或" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N476数字的补数 位运算 异或" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
