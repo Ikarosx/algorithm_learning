@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N492构造矩形">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N495提莫攻击.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N496下一个更大元素I 哈希表 单调栈">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N496下一个更大元素I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -434,14 +434,7 @@
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
       <workItem from="1625533137625" duration="3475000" />
-      <workItem from="1625627114114" duration="14858000" />
-    </task>
-    <task id="LOCAL-00083" summary="N203移除链表元素 哨兵结点">
-      <created>1619420258750</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1619420258750</updated>
+      <workItem from="1625627114114" duration="15571000" />
     </task>
     <task id="LOCAL-00084" summary="N204计数质数 筛素数">
       <created>1619431579251</created>
@@ -779,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625718543509</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="feat(leetcode): N495提莫攻击">
+      <created>1625724106753</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1625724106753</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,8 +798,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N692前K个高频单词 map + 堆" />
-    <MESSAGE value="N461汉明距离 位运算" />
     <MESSAGE value="N160相交链表 双指针" />
     <MESSAGE value="N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N292 Nim游戏 数学" />
@@ -823,7 +821,9 @@
     <MESSAGE value="feat(leetcode): N476数字的补数 位运算 异或" />
     <MESSAGE value="feat(leetcode): N482密钥格式化" />
     <MESSAGE value="feat(leetcode): N492构造矩形" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N492构造矩形" />
+    <MESSAGE value="feat(leetcode): N495提莫攻击" />
+    <MESSAGE value="feat(leetcode): N496下一个更大元素I 哈希表 单调栈" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N496下一个更大元素I 哈希表 单调栈" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
