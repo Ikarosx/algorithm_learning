@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N476数字的补数 位运算 异或">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N482密钥格式化.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N482密钥格式化">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N492构造矩形.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -434,14 +434,7 @@
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
       <workItem from="1625533137625" duration="3475000" />
-      <workItem from="1625627114114" duration="11893000" />
-    </task>
-    <task id="LOCAL-00081" summary="N196删除重复的电子邮箱 JOIN vs SUB QUERY">
-      <created>1619417705367</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1619417705367</updated>
+      <workItem from="1625627114114" duration="13016000" />
     </task>
     <task id="LOCAL-00082" summary="N202快乐数 set去重">
       <created>1619419810405</created>
@@ -779,7 +772,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625714242109</updated>
     </task>
-    <option name="localTasksCounter" value="130" />
+    <task id="LOCAL-00130" summary="feat(leetcode): N482密钥格式化">
+      <created>1625715956606</created>
+      <option name="number" value="00130" />
+      <option name="presentableId" value="LOCAL-00130" />
+      <option name="project" value="LOCAL" />
+      <updated>1625715956607</updated>
+    </task>
+    <option name="localTasksCounter" value="131" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -798,7 +798,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N1442形成两个异或相等数组的三元组数目 异或" />
     <MESSAGE value="N1738找出第K大的异或坐标值 异或 二维前缀和" />
     <MESSAGE value="N692前K个高频单词 map + 堆" />
     <MESSAGE value="N461汉明距离 位运算" />
@@ -823,7 +822,8 @@
     <MESSAGE value="feat(leetcode): N459重复的子字符串 KMP、数学" />
     <MESSAGE value="feat(leetcode): N463岛屿的周长 模拟DFS" />
     <MESSAGE value="feat(leetcode): N476数字的补数 位运算 异或" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N476数字的补数 位运算 异或" />
+    <MESSAGE value="feat(leetcode): N482密钥格式化" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N482密钥格式化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
