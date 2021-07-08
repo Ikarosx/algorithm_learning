@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N496下一个更大元素I 哈希表 单调栈">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n400/N496下一个更大元素I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N500键盘行.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,30 +130,16 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N482密钥格式化.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N500键盘行.test">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N441排列硬币.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N441排列硬币" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -222,13 +208,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N500键盘行.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n500.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N500键盘行" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N500键盘行.test" />
         <item itemvalue="JUnit.N482密钥格式化.test" />
         <item itemvalue="JUnit.N476数字的补数.test" />
         <item itemvalue="JUnit.N463岛屿的周长.test" />
         <item itemvalue="JUnit.N459重复的子字符串.test" />
-        <item itemvalue="JUnit.N441排列硬币.test" />
       </list>
     </recent_temporary>
   </component>
@@ -434,14 +436,8 @@
       <workItem from="1625187605995" duration="2385000" />
       <workItem from="1625273272076" duration="3633000" />
       <workItem from="1625533137625" duration="3475000" />
-      <workItem from="1625627114114" duration="15571000" />
-    </task>
-    <task id="LOCAL-00084" summary="N204计数质数 筛素数">
-      <created>1619431579251</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1619431579251</updated>
+      <workItem from="1625627114114" duration="15586000" />
+      <workItem from="1625725789438" duration="1184000" />
     </task>
     <task id="LOCAL-00085" summary="N938二叉搜索树的范围和 DFS">
       <created>1619485858354</created>
@@ -779,7 +775,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625724106753</updated>
     </task>
-    <option name="localTasksCounter" value="133" />
+    <task id="LOCAL-00133" summary="feat(leetcode): N496下一个更大元素I 哈希表 单调栈">
+      <created>1625724842055</created>
+      <option name="number" value="00133" />
+      <option name="presentableId" value="LOCAL-00133" />
+      <option name="project" value="LOCAL" />
+      <updated>1625724842055</updated>
+    </task>
+    <option name="localTasksCounter" value="134" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
