@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N575分糖果 set">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N594最长和谐子序列.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N594最长和谐子序列 哈希">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N598范围求和II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -446,14 +446,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="12894000" />
-    </task>
-    <task id="LOCAL-00097" summary="N1720解码异或后的数组 位运算">
-      <created>1620262411537</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1620262411538</updated>
+      <workItem from="1626051542002" duration="15108000" />
     </task>
     <task id="LOCAL-00098" summary="N740删除并获得点数 DP">
       <created>1620263558434</created>
@@ -791,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626075348526</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="feat(leetcode): N594最长和谐子序列 哈希">
+      <created>1626075792970</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1626075792970</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N412FizzBuzz 模拟" />
     <MESSAGE value="feat(leetcode): N434字符串中的单词数" />
     <MESSAGE value="feat(leetcode): N441排列硬币 二分" />
     <MESSAGE value="feat(leetcode): N572另一个树的子树 DFS/KMP/树哈希" />
@@ -835,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N559N叉树的最大深度 DFS" />
     <MESSAGE value="feat(leetcode): N563二叉树的坡度 DFS" />
     <MESSAGE value="feat(leetcode): N575分糖果 set" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N575分糖果 set" />
+    <MESSAGE value="feat(leetcode): N594最长和谐子序列 哈希" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N594最长和谐子序列 哈希" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
