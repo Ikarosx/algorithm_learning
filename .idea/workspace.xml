@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N501二叉搜索树中的众数 BST">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N504七进制数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N504七进制数">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N506相对名次.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -447,14 +447,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="1709000" />
-    </task>
-    <task id="LOCAL-00087" summary="N225用队列实现栈">
-      <created>1619487957933</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1619487957933</updated>
+      <workItem from="1626051542002" duration="3708000" />
     </task>
     <task id="LOCAL-00088" summary="N2312的幂 位运算">
       <created>1619491027934</created>
@@ -792,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625732752607</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="feat(leetcode): N504七进制数">
+      <created>1626059118785</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1626059118786</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +811,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
     <MESSAGE value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
     <MESSAGE value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
@@ -836,7 +835,8 @@
     <MESSAGE value="feat(leetcode): N496下一个更大元素I 哈希表 单调栈" />
     <MESSAGE value="feat(leetcode): N500键盘行 哈希" />
     <MESSAGE value="feat(leetcode): N501二叉搜索树中的众数 BST" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N501二叉搜索树中的众数 BST" />
+    <MESSAGE value="feat(leetcode): N504七进制数" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N504七进制数" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
