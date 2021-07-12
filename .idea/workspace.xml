@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N594最长和谐子序列 哈希">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N598范围求和II.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N598范围求和II">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N599两个列表的最小索引总和.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,13 +66,23 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N476数字的补数.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N463岛屿的周长.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N500键盘行.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N504七进制数.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N496下一个更大元素I.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N501二叉搜索树中的众数.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N495提莫攻击.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N520检测大写字母.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N492构造矩形.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N482密钥格式化.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N521最长特殊序列Ⅰ.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N500键盘行.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N504七进制数.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N559N叉树的最大深度.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N557反转字符串中的单词III.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N551学生出勤记录I.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N541反转字符串II.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N598范围求和II.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N594最长和谐子序列.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N575分糖果.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N563二叉树的坡度.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JupyterTrust" id="215e7323-3c93-4c01-8bf5-21a490663700" />
   <component name="MavenImportPreferences">
@@ -446,14 +456,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="15108000" />
-    </task>
-    <task id="LOCAL-00098" summary="N740删除并获得点数 DP">
-      <created>1620263558434</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1620263558434</updated>
+      <workItem from="1626051542002" duration="17991000" />
     </task>
     <task id="LOCAL-00099" summary="N1486数组异或操作 数学">
       <created>1620362705731</created>
@@ -791,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626075792970</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="feat(leetcode): N598范围求和II">
+      <created>1626077997979</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1626077997979</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N434字符串中的单词数" />
     <MESSAGE value="feat(leetcode): N441排列硬币 二分" />
     <MESSAGE value="feat(leetcode): N572另一个树的子树 DFS/KMP/树哈希" />
     <MESSAGE value="feat(leetcode): N520检测大写字母 统计" />
@@ -835,7 +844,8 @@
     <MESSAGE value="feat(leetcode): N563二叉树的坡度 DFS" />
     <MESSAGE value="feat(leetcode): N575分糖果 set" />
     <MESSAGE value="feat(leetcode): N594最长和谐子序列 哈希" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N594最长和谐子序列 哈希" />
+    <MESSAGE value="feat(leetcode): N598范围求和II" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N598范围求和II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
