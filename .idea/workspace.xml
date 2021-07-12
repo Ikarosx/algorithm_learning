@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N541反转字符串II.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N541反转字符串II 模拟">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N551学生出勤记录I.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -446,14 +446,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="8095000" />
-    </task>
-    <task id="LOCAL-00091" summary="N242有效的字母异位词 Hash 排序">
-      <created>1619666611711</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1619666611711</updated>
+      <workItem from="1626051542002" duration="8888000" />
     </task>
     <task id="LOCAL-00092" summary="N235二叉搜索树的最近公共祖先 递归">
       <created>1619670170993</created>
@@ -791,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626069403287</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="feat(leetcode): N541反转字符串II 模拟">
+      <created>1626070574765</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1626070574765</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N374猜数字大小 二分法" />
     <MESSAGE value="feat(leetcode): N383赎金信 桶排序" />
     <MESSAGE value="feat(leetcode): N389找不同 异或、求和" />
     <MESSAGE value="feat(leetcode): N392判断子序列 双指针、DP" />
@@ -835,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N506相对名次 排序哈希" />
     <MESSAGE value="feat(leetcode): N507完美数" />
     <MESSAGE value="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯" />
+    <MESSAGE value="feat(leetcode): N541反转字符串II 模拟" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N541反转字符串II 模拟" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
