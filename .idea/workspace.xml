@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N557反转字符串中的单词III 模拟">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N559N叉树的最大深度.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N559N叉树的最大深度 DFS">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N563二叉树的坡度.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -446,14 +446,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="10554000" />
-    </task>
-    <task id="LOCAL-00094" summary="N257二叉树的所有路径 回溯">
-      <created>1620118675902</created>
-      <option name="number" value="00094" />
-      <option name="presentableId" value="LOCAL-00094" />
-      <option name="project" value="LOCAL" />
-      <updated>1620118675903</updated>
+      <workItem from="1626051542002" duration="12139000" />
     </task>
     <task id="LOCAL-00095" summary="N258各位相加 数学理解">
       <created>1620119454006</created>
@@ -791,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626071929415</updated>
     </task>
-    <option name="localTasksCounter" value="143" />
+    <task id="LOCAL-00143" summary="feat(leetcode): N559N叉树的最大深度 DFS">
+      <created>1626072952642</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1626072952642</updated>
+    </task>
+    <option name="localTasksCounter" value="144" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N392判断子序列 双指针、DP" />
     <MESSAGE value="feat(leetcode): N404左叶子之和 DFS、BFS" />
     <MESSAGE value="feat(leetcode): N409最长回文串 hashMap" />
     <MESSAGE value="feat(leetcode): N412FizzBuzz 模拟" />
@@ -835,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N541反转字符串II 模拟" />
     <MESSAGE value="feat(leetcode): N551学生出勤记录I 模拟" />
     <MESSAGE value="feat(leetcode): N557反转字符串中的单词III 模拟" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N557反转字符串中的单词III 模拟" />
+    <MESSAGE value="feat(leetcode): N559N叉树的最大深度 DFS" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N559N叉树的最大深度 DFS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
