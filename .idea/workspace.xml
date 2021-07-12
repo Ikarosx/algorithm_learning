@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N541反转字符串II 模拟">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N551学生出勤记录I.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N551学生出勤记录I 模拟">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N557反转字符串中的单词III.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +141,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N541反转字符串II">
+  <component name="RunManager" selected="JUnit.N557反转字符串中的单词III.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -149,22 +149,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N500键盘行.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n500.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N500键盘行" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -232,13 +216,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N557反转字符串中的单词III.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n500.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N557反转字符串中的单词III" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N557反转字符串中的单词III.test" />
         <item itemvalue="JUnit.N541反转字符串II" />
         <item itemvalue="JUnit.N541反转字符串II.test" />
         <item itemvalue="JUnit.N507完美数.test" />
         <item itemvalue="JUnit.N504七进制数.test" />
-        <item itemvalue="JUnit.N500键盘行.test" />
       </list>
     </recent_temporary>
   </component>
@@ -446,14 +446,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="8888000" />
-    </task>
-    <task id="LOCAL-00092" summary="N235二叉搜索树的最近公共祖先 递归">
-      <created>1619670170993</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1619670170993</updated>
+      <workItem from="1626051542002" duration="9505000" />
     </task>
     <task id="LOCAL-00093" summary="N137只出现一次的数字II 位运算">
       <created>1619746068729</created>
@@ -791,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626070574765</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="feat(leetcode): N551学生出勤记录I 模拟">
+      <created>1626071258297</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1626071258297</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -810,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N383赎金信 桶排序" />
     <MESSAGE value="feat(leetcode): N389找不同 异或、求和" />
     <MESSAGE value="feat(leetcode): N392判断子序列 双指针、DP" />
     <MESSAGE value="feat(leetcode): N404左叶子之和 DFS、BFS" />
@@ -835,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N507完美数" />
     <MESSAGE value="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯" />
     <MESSAGE value="feat(leetcode): N541反转字符串II 模拟" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N541反转字符串II 模拟" />
+    <MESSAGE value="feat(leetcode): N551学生出勤记录I 模拟" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N551学生出勤记录I 模拟" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
