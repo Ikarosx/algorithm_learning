@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N500键盘行 哈希">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N501二叉搜索树中的众数.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N501二叉搜索树中的众数 BST">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N504七进制数.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,17 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N476数字的补数.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N463岛屿的周长.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N500键盘行.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N504七进制数.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N496下一个更大元素I.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n500/N501二叉搜索树中的众数.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N495提莫攻击.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N492构造矩形.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/leetcode/序号/n400/N482密钥格式化.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JupyterTrust" id="215e7323-3c93-4c01-8bf5-21a490663700" />
   <component name="MavenImportPreferences">
@@ -130,32 +141,14 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N500键盘行.test">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.N504七进制数.test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N459重复的子字符串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N459重复的子字符串" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,13 +217,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N504七进制数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n500.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N504七进制数" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N504七进制数.test" />
         <item itemvalue="JUnit.N500键盘行.test" />
         <item itemvalue="JUnit.N482密钥格式化.test" />
         <item itemvalue="JUnit.N476数字的补数.test" />
         <item itemvalue="JUnit.N463岛屿的周长.test" />
-        <item itemvalue="JUnit.N459重复的子字符串.test" />
       </list>
     </recent_temporary>
   </component>
@@ -437,14 +446,8 @@
       <workItem from="1625273272076" duration="3633000" />
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
-      <workItem from="1625725789438" duration="4541000" />
-    </task>
-    <task id="LOCAL-00086" summary="N217 219 重复元素">
-      <created>1619486613765</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1619486613765</updated>
+      <workItem from="1625725789438" duration="7905000" />
+      <workItem from="1626051542002" duration="1709000" />
     </task>
     <task id="LOCAL-00087" summary="N225用队列实现栈">
       <created>1619487957933</created>
@@ -782,7 +785,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625727003004</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="feat(leetcode): N501二叉搜索树中的众数 BST">
+      <created>1625732752607</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1625732752607</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -801,7 +811,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N292 Nim游戏 数学" />
     <MESSAGE value="feat(leetcode): N345反转字符串中的元音字母 双指针" />
     <MESSAGE value="feat(leetcode): N349两个数组的交集 N340两个数组的交集II Hash、排序、双指针" />
@@ -826,7 +835,8 @@
     <MESSAGE value="feat(leetcode): N495提莫攻击" />
     <MESSAGE value="feat(leetcode): N496下一个更大元素I 哈希表 单调栈" />
     <MESSAGE value="feat(leetcode): N500键盘行 哈希" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N500键盘行 哈希" />
+    <MESSAGE value="feat(leetcode): N501二叉搜索树中的众数 BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N501二叉搜索树中的众数 BST" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
