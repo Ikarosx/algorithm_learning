@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N507完美数">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N521最长特殊序列Ⅰ.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N541反转字符串II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +141,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N507完美数.test">
+  <component name="RunManager" selected="JUnit.N541反转字符串II">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -149,38 +149,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N476数字的补数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N476数字的补数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N482密钥格式化.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n400.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n400" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n400.N482密钥格式化" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -233,13 +201,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N541反转字符串II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n500.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N541反转字符串II" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="N541反转字符串II.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n500.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N541反转字符串II" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N541反转字符串II" />
+        <item itemvalue="JUnit.N541反转字符串II.test" />
         <item itemvalue="JUnit.N507完美数.test" />
         <item itemvalue="JUnit.N504七进制数.test" />
         <item itemvalue="JUnit.N500键盘行.test" />
-        <item itemvalue="JUnit.N482密钥格式化.test" />
-        <item itemvalue="JUnit.N476数字的补数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -447,14 +446,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="7100000" />
-    </task>
-    <task id="LOCAL-00090" summary="N237删除链表中的节点 &#10;如何让自己在世界上消失，但又不死？ —— 将自己完全变成另一个人，再杀了那个人就行了。&#10;https://leetcode-cn.com/problems/delete-node-in-a-linked-list/comments/373874">
-      <created>1619666197293</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1619666197293</updated>
+      <workItem from="1626051542002" duration="8095000" />
     </task>
     <task id="LOCAL-00091" summary="N242有效的字母异位词 Hash 排序">
       <created>1619666611711</created>
@@ -792,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626064092794</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯">
+      <created>1626069403287</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1626069403287</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -811,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N367有效的完全平方数 二分法、牛顿迭代" />
     <MESSAGE value="feat(leetcode): N374猜数字大小 二分法" />
     <MESSAGE value="feat(leetcode): N383赎金信 桶排序" />
     <MESSAGE value="feat(leetcode): N389找不同 异或、求和" />
@@ -836,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N504七进制数" />
     <MESSAGE value="feat(leetcode): N506相对名次 排序哈希" />
     <MESSAGE value="feat(leetcode): N507完美数" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N507完美数" />
+    <MESSAGE value="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N521最长特殊序列Ⅰ 脑筋急转弯" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
