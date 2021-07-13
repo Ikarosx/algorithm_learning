@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N606根据二叉树创建字符串 前序遍历">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N637二叉树的层平均值.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N637二叉树的层平均值 层序遍历">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N645错误的集合.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -456,14 +456,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="22547000" />
-    </task>
-    <task id="LOCAL-00101" summary="N268丢失的数字 位运算">
-      <created>1620438802946</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1620438802947</updated>
+      <workItem from="1626051542002" duration="25515000" />
     </task>
     <task id="LOCAL-00102" summary="N278第一个错误的版本 二分查找">
       <created>1620439630173</created>
@@ -801,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626141177829</updated>
     </task>
-    <option name="localTasksCounter" value="150" />
+    <task id="LOCAL-00150" summary="feat(leetcode): N637二叉树的层平均值 层序遍历">
+      <created>1626144094850</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1626144094850</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N520检测大写字母 统计" />
     <MESSAGE value="feat(leetcode): N530二叉搜索树的最小绝对差 中序遍历" />
     <MESSAGE value="feat(leetcode): N459重复的子字符串 KMP、数学" />
     <MESSAGE value="feat(leetcode): N463岛屿的周长 模拟DFS" />
@@ -845,7 +844,8 @@
     <MESSAGE value="feat(leetcode): N598范围求和II" />
     <MESSAGE value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
     <MESSAGE value="feat(leetcode): N606根据二叉树创建字符串 前序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N606根据二叉树创建字符串 前序遍历" />
+    <MESSAGE value="feat(leetcode): N637二叉树的层平均值 层序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N637二叉树的层平均值 层序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
