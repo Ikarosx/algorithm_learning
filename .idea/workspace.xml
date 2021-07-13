@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N637二叉树的层平均值 层序遍历">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N645错误的集合.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N645错误的集合 位运算">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N653两数之和IV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,17 +152,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.N637二叉树的层平均值.test">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="N507完美数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_learning1" />
       <extension name="coverage">
@@ -456,14 +445,8 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="25515000" />
-    </task>
-    <task id="LOCAL-00102" summary="N278第一个错误的版本 二分查找">
-      <created>1620439630173</created>
-      <option name="number" value="00102" />
-      <option name="presentableId" value="LOCAL-00102" />
-      <option name="project" value="LOCAL" />
-      <updated>1620439630173</updated>
+      <workItem from="1626051542002" duration="25566000" />
+      <workItem from="1626155160044" duration="974000" />
     </task>
     <task id="LOCAL-00103" summary="N290单词规律 哈希">
       <created>1620441645244</created>
@@ -801,7 +784,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626144094850</updated>
     </task>
-    <option name="localTasksCounter" value="151" />
+    <task id="LOCAL-00151" summary="feat(leetcode): N645错误的集合 位运算">
+      <created>1626148284328</created>
+      <option name="number" value="00151" />
+      <option name="presentableId" value="LOCAL-00151" />
+      <option name="project" value="LOCAL" />
+      <updated>1626148284328</updated>
+    </task>
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +810,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N530二叉搜索树的最小绝对差 中序遍历" />
     <MESSAGE value="feat(leetcode): N459重复的子字符串 KMP、数学" />
     <MESSAGE value="feat(leetcode): N463岛屿的周长 模拟DFS" />
     <MESSAGE value="feat(leetcode): N476数字的补数 位运算 异或" />
@@ -845,7 +834,8 @@
     <MESSAGE value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
     <MESSAGE value="feat(leetcode): N606根据二叉树创建字符串 前序遍历" />
     <MESSAGE value="feat(leetcode): N637二叉树的层平均值 层序遍历" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N637二叉树的层平均值 层序遍历" />
+    <MESSAGE value="feat(leetcode): N645错误的集合 位运算" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N645错误的集合 位运算" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
