@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N599两个列表的最小索引总和 哈希">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N606根据二叉树创建字符串.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N606根据二叉树创建字符串 前序遍历">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N637二叉树的层平均值.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -151,7 +151,7 @@
       <recent name="interview.微众银行.微众银行20201015" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.N557反转字符串中的单词III.test">
+  <component name="RunManager" selected="JUnit.N637二叉树的层平均值.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -159,22 +159,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="N504七进制数.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_learning1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leetcode.序号.n500.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="leetcode.序号.n500" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n500.N504七进制数" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -242,13 +226,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="N637二叉树的层平均值.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_learning1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.序号.n600.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="leetcode.序号.n600" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.序号.n600.N637二叉树的层平均值" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.N637二叉树的层平均值.test" />
         <item itemvalue="JUnit.N557反转字符串中的单词III.test" />
         <item itemvalue="JUnit.N541反转字符串II" />
         <item itemvalue="JUnit.N541反转字符串II.test" />
         <item itemvalue="JUnit.N507完美数.test" />
-        <item itemvalue="JUnit.N504七进制数.test" />
       </list>
     </recent_temporary>
   </component>
@@ -456,14 +456,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="20397000" />
-    </task>
-    <task id="LOCAL-00100" summary="N263丑数 数学">
-      <created>1620437518459</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1620437518459</updated>
+      <workItem from="1626051542002" duration="22547000" />
     </task>
     <task id="LOCAL-00101" summary="N268丢失的数字 位运算">
       <created>1620438802946</created>
@@ -801,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626083596570</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <task id="LOCAL-00149" summary="feat(leetcode): N606根据二叉树创建字符串 前序遍历">
+      <created>1626141177829</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1626141177829</updated>
+    </task>
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N572另一个树的子树 DFS/KMP/树哈希" />
     <MESSAGE value="feat(leetcode): N520检测大写字母 统计" />
     <MESSAGE value="feat(leetcode): N530二叉搜索树的最小绝对差 中序遍历" />
     <MESSAGE value="feat(leetcode): N459重复的子字符串 KMP、数学" />
@@ -845,7 +844,8 @@
     <MESSAGE value="feat(leetcode): N594最长和谐子序列 哈希" />
     <MESSAGE value="feat(leetcode): N598范围求和II" />
     <MESSAGE value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
+    <MESSAGE value="feat(leetcode): N606根据二叉树创建字符串 前序遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N606根据二叉树创建字符串 前序遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
