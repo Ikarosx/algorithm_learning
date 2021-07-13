@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N598范围求和II">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n500/N599两个列表的最小索引总和.java" afterDir="false" />
+    <list default="true" id="29fb4e63-663a-4507-9dbc-8f4cab5e4d8a" name="Default Changelist" comment="feat(leetcode): N599两个列表的最小索引总和 哈希">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/序号/n600/N606根据二叉树创建字符串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +131,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -456,14 +456,7 @@
       <workItem from="1625533137625" duration="3475000" />
       <workItem from="1625627114114" duration="15586000" />
       <workItem from="1625725789438" duration="7905000" />
-      <workItem from="1626051542002" duration="17991000" />
-    </task>
-    <task id="LOCAL-00099" summary="N1486数组异或操作 数学">
-      <created>1620362705731</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1620362705731</updated>
+      <workItem from="1626051542002" duration="20397000" />
     </task>
     <task id="LOCAL-00100" summary="N263丑数 数学">
       <created>1620437518459</created>
@@ -801,7 +794,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626077997979</updated>
     </task>
-    <option name="localTasksCounter" value="148" />
+    <task id="LOCAL-00148" summary="feat(leetcode): N599两个列表的最小索引总和 哈希">
+      <created>1626083596570</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1626083596570</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -820,7 +820,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat(leetcode): N441排列硬币 二分" />
     <MESSAGE value="feat(leetcode): N572另一个树的子树 DFS/KMP/树哈希" />
     <MESSAGE value="feat(leetcode): N520检测大写字母 统计" />
     <MESSAGE value="feat(leetcode): N530二叉搜索树的最小绝对差 中序遍历" />
@@ -845,7 +844,8 @@
     <MESSAGE value="feat(leetcode): N575分糖果 set" />
     <MESSAGE value="feat(leetcode): N594最长和谐子序列 哈希" />
     <MESSAGE value="feat(leetcode): N598范围求和II" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N598范围求和II" />
+    <MESSAGE value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(leetcode): N599两个列表的最小索引总和 哈希" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
